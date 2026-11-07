@@ -1,0 +1,32 @@
+{
+  "rules": {
+    "rooms": {
+      "$code": {
+        ".read": "auth != null",
+        "meta": {
+          ".write": "auth != null && (!data.exists() || data.child('hostUid').val() === auth.uid || (newData.child('hostUid').exists() && root.child('rooms/' + $code + '/players/' + auth.uid).exists() && root.child('rooms/' + $code + '/players/' + data.child('hostUid').val() + '/connected').val() === false))"
+        },
+        "players": {
+          "$uid": {
+            ".write": "auth != null && (auth.uid === $uid || root.child('rooms/' + $code + '/meta/hostUid').val() === auth.uid)"
+          }
+        },
+        "state": {
+          ".write": "auth != null && root.child('rooms/' + $code + '/meta/hostUid').val() === auth.uid"
+        },
+        "commands": {
+          "$version": {
+            "$uid": {
+              ".write": "auth != null && auth.uid === $uid && root.child('rooms/' + $code + '/players/' + auth.uid).exists()"
+            }
+          }
+        },
+        "chat": {
+          "$msg": {
+            ".write": "auth != null && !data.exists() && newData.child('uid').val() === auth.uid && newData.child('text').isString() && newData.child('text').val().length <= 300"
+          }
+        }
+      }
+    }
+  }
+}

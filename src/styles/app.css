@@ -1,0 +1,17 @@
+/* Shell and lobby styles. Design tokens come from game.css. */
+.lobby-title{font-size:clamp(40px,6vw,64px);margin:6px 0 8px}
+.lobby .field input{min-width:0;width:min(360px,100%)}
+.lobby-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:18px 0}
+.lobby-grid .panel + .panel{margin-top:0}
+.code-input{font-family:var(--display);font-size:24px;letter-spacing:.2em;text-transform:uppercase}
+.room-head{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.room-code{background:var(--chyron);color:var(--chyron-ink);padding:0 12px;border-radius:6px;letter-spacing:.12em}
+.player-row{display:flex;align-items:center;gap:8px;padding:8px 0;border-bottom:1px solid var(--line)}
+.player-row .dot.on{background:var(--good)}.player-row .dot.off{background:var(--muted)}
+.tagchip{background:var(--ink);color:var(--surface);border-radius:4px;padding:1px 7px;font-weight:700;font-size:12px}
+.notice{border-left:4px solid var(--chyron);margin:14px 0}
+.lobby .opt:disabled,.lobby .seg button:disabled{cursor:default;opacity:.7}
+.party-chip{color:#fff;border-radius:4px;padding:1px 7px;font-weight:700;font-size:12px}
+.host-ctrl{position:fixed;right:20px;bottom:calc(60px + env(safe-area-inset-bottom,0px));z-index:30;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--chyron);border-radius:8px;padding:10px 12px;display:flex;flex-direction:column;gap:6px;max-width:280px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.host-ctrl span{font-weight:700;font-size:13px}.host-ctrl small{color:var(--muted);font-size:12px}
+.err-box{border-left-color:var(--bad);color:var(--bad);font-weight:600;bottom:calc(150px + env(safe-area-inset-bottom,0px))}
