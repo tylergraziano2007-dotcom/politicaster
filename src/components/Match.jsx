@@ -4,13 +4,14 @@ import { setPlayerChoice, updateSettings } from '../net/rooms.js';
 import { publishState, watchState, submitCommands, watchCommands } from '../net/sync.js';
 import { waitingOn } from '../engine/protocol.js';
 import { addAiHeadlines } from '../ai/headlines.js';
+import LiveDebate from './LiveDebate.jsx';
 
 /**
  * A versus match. Phases come from room.meta.status:
  *   setup   - everyone builds a candidate; the host creates the game when all are in
  *   playing - everyone plans each week; the host resolves when all have submitted
  */
-export default function Match({ code, uid, room, onLeave }) {
+export default function Match({ code, uid, room, onLeave, debateTimings }) {
   const el = useRef(null);
   const roomRef = useRef(room);
   const verRef = useRef(0);
@@ -83,7 +84,7 @@ export default function Match({ code, uid, room, onLeave }) {
   async function tryResolve(force) {
     const state = stateRef.current;
     const v = verRef.current;
-    if (!state || state.phase === 'night' || resolvingVer.current === v) return;
+    if (!state || state.phase === 'night' || state.phase === 'over' || state.liveDebate || resolvingVer.current === v) return;
     const cmds = cmdsRef.current;
     const waiting = waitingOn(roomRef.current.players, cmds);
     if (waiting.length && !force) return;
@@ -128,6 +129,10 @@ export default function Match({ code, uid, room, onLeave }) {
           <button className="btn sm chy" onClick={() => tryResolve(true)}>Resolve week now</button>
           <small>Skips anyone still planning. Their week passes with no actions.</small>
         </div>
+      )}
+      {stateRef.current && stateRef.current.liveDebate && (
+        <LiveDebate code={code} uid={uid} isHost={isHost} state={stateRef.current} version={version} players={room.players || {}} timings={debateTimings}
+          onDone={(ns) => publishState(code, ns, verRef.current + 1).catch((e) => setError('Couldn’t publish debate results: ' + e.message))} />
       )}
       {error && <div className="host-ctrl err-box" role="alert">{error}</div>}
     </>

@@ -154,7 +154,7 @@ const FG={
 };
 
 const US_PATHS={"AL":"M648,492L648,492L648,492ZM642,384L689,380L702,427L710,440L706,450L709,457L708,465L711,469L661,474L666,486L664,490L656,488L653,482L652,490L646,489L642,455L644,386Z","AK":"M104,552L104,552L104,552ZM99,570L103,565L105,569ZM95,582L95,582L95,582ZM93,575L99,571L105,573L95,580ZM93,583L93,583L93,583ZM89,588L89,588L89,588ZM72,594L72,594L72,594ZM71,592L71,592L71,592ZM68,593L68,593L68,593ZM66,590L66,590L66,590ZM68,564L68,564L68,564ZM61,591L61,591L61,591ZM58,592L58,592L58,592ZM66,524L66,524L66,524ZM56,596L56,596L56,596ZM45,597L45,597L45,597ZM43,595L43,595L43,595ZM41,596L41,596L41,596ZM44,547L50,547L48,552ZM31,601L38,596L37,601ZM51,505L66,500L65,504L74,504L73,498L67,496L66,492L59,484L62,481L67,481L75,471L87,468L89,465L95,469L101,469L104,472L109,471L123,474L126,472L133,474L147,547L155,547L164,555L169,546L181,554L193,565L200,567L203,573L201,578L193,574L188,565L183,563L178,557L171,551L173,557L168,559L160,554L151,551L141,550L135,552L126,547L119,547L121,553L114,554L109,560L105,560L106,546L100,557L96,560L100,564L96,569L90,572L77,586L47,595L49,592L57,590L62,585L66,585L81,573L84,563L76,566L71,561L65,564L66,557L64,551L58,553L53,547L51,538L61,526L64,528L73,523L73,514L68,517L55,514L56,509ZM25,603L25,603L25,603ZM28,573L28,573L28,573ZM20,602L20,602L20,602ZM27,568L27,568L27,568ZM16,603L16,603L16,603ZM34,518L39,518L45,522L41,524ZM7,603L7,603L7,603ZM23,540L23,540L23,540ZM-0,602L-0,602L-0,602ZM-6,601L-6,601L-6,601ZM-10,599L-10,599L-10,599ZM-11,601L-11,601L-11,601ZM-15,601L-15,601L-15,601ZM-18,600L-18,600L-18,600ZM-20,597L-20,597L-20,597ZM-30,593L-30,593L-30,593ZM-35,593L-35,593L-35,593ZM-41,589L-41,589L-41,589ZM-56,577L-56,577L-56,577ZM-58,571L-58,571L-58,571ZM197,577L197,577L197,577ZM196,577L196,577L196,577ZM195,575L195,575L195,575ZM188,570L188,570L188,570ZM187,569L187,569L187,569ZM186,577L186,577L186,577ZM185,573L187,570L194,576L196,580ZM183,574L183,574L183,574ZM180,567L185,564L189,567ZM175,556L178,557L181,563L180,566ZM174,565L177,563L181,573ZM173,566L173,566L173,566ZM169,561L172,558L177,563L174,565ZM121,555L121,555L121,555ZM120,551L120,551L120,551Z","AZ":"M145,407L149,407L150,401L147,400L148,392L152,389L154,380L163,374L160,370L157,356L160,331L167,331L170,335L173,331L176,313L239,324L265,328L247,456L208,450L172,429L142,412Z","CO":"M277,237L333,244L361,247L395,249L394,272L390,341L372,339L349,338L315,334L265,328L268,299Z","FL":"M815,594L815,594L815,594ZM813,596L813,596L813,596ZM807,599L807,599L807,599ZM794,604L800,598L805,600ZM790,605L790,605L790,605ZM786,605L786,605L786,605ZM777,558L777,558L777,558ZM770,606L770,606L770,606ZM720,495L720,495L720,495ZM711,469L714,475L766,471L770,476L769,466L780,466L787,486L795,500L806,514L807,522L820,544L823,554L824,575L820,586L807,590L801,578L792,575L785,563L778,557L766,543L771,533L765,530L767,534L765,537L762,533L764,517L759,505L755,505L746,498L740,491L732,487L727,487L714,501L707,500L706,494L696,488L681,486L664,490L666,486L661,474Z","GA":"M689,380L713,377L735,374L732,382L741,385L748,396L762,406L766,412L771,414L774,423L786,435L783,442L781,454L778,460L780,466L769,466L770,476L766,471L714,475L711,469L708,465L709,457L706,450L710,440L702,427Z","IN":"M640,230L647,231L652,228L686,224L686,225L693,284L694,292L683,295L684,298L677,305L674,313L669,309L666,314L661,313L655,319L647,315L639,320L638,317L647,298L643,288L645,284Z","KS":"M394,272L422,273L465,275L510,275L516,278L514,286L519,293L522,295L523,344L489,344L433,343L390,341Z","ME":"M940,115L940,115L940,115ZM938,116L938,116L938,116ZM936,112L936,112L936,112ZM932,116L932,116L932,116ZM934,125L934,125L934,125ZM931,119L931,119L931,119ZM930,116L930,116L930,116ZM910,150L905,145L891,102L894,99L900,86L898,83L900,74L899,67L906,48L912,52L923,46L930,50L939,80L945,80L946,87L952,88L957,95L953,99L950,106L947,104L944,110L939,114L937,110L936,118L931,110L930,123L918,131L913,138Z","MA":"M928,187L928,187L928,187ZM918,188L921,184L925,187ZM871,168L884,165L903,161L909,155L914,158L909,166L917,171L922,178L931,177L920,183L918,179L913,186L911,183L910,182L905,176L899,178L871,184Z","MN":"M479,71L511,71L511,62L516,64L520,77L531,79L532,81L540,78L563,87L566,91L577,86L578,89L588,88L596,91L582,98L559,119L560,121L556,122L556,136L551,139L548,147L551,150L550,154L549,166L564,175L565,178L572,182L576,193L549,194L491,195L491,154L484,147L489,140L489,131L486,123L485,102L481,89L481,78Z","NJ":"M849,246L850,244L851,241L861,231L854,226L850,221L850,214L855,204L870,209L869,216L869,217L867,221L871,222L873,237L865,257L859,254L849,246Z","NC":"M864,329L864,329L864,329ZM863,350L863,350L863,350ZM756,334L780,331L812,326L859,316L856,317L859,323L847,333L856,330L863,329L866,335L860,344L843,343L854,347L850,356L859,354L856,361L851,361L844,365L834,377L833,384L823,386L798,368L778,371L772,365L749,367L735,374L713,377L713,371L717,369L721,363L726,362L738,350L741,351L747,345L751,346Z","ND":"M377,66L404,68L445,70L479,71L481,78L481,89L485,102L486,123L489,131L489,140L460,139L412,137L371,134Z","OK":"M372,339L390,341L433,343L489,344L523,344L523,355L527,381L526,421L520,418L512,413L499,415L492,420L481,414L476,419L467,413L462,413L454,409L452,411L438,404L429,403L424,398L426,354L372,351Z","PA":"M756,209L768,200L769,206L800,201L841,192L847,197L850,202L855,204L850,214L850,221L854,226L861,231L851,241L845,245L816,251L782,257L765,260L761,239Z","SD":"M369,156L371,134L412,137L460,139L489,140L484,147L491,154L491,195L488,195L491,204L488,212L491,218L476,210L467,210L466,212L457,206L404,204L365,201Z","TX":"M372,351L426,354L424,398L429,403L438,404L452,411L454,409L462,413L467,413L476,419L481,414L492,420L499,415L512,413L520,418L526,421L535,423L535,435L535,458L540,463L540,467L545,476L546,484L542,490L543,502L539,507L541,510L535,511L522,517L524,509L518,511L520,519L523,519L510,530L492,539L480,548L480,546L489,541L484,542L477,547L469,564L468,576L471,592L474,595L467,597L464,593L452,592L440,585L434,584L431,574L428,570L428,559L420,552L419,548L412,541L405,522L390,506L378,505L366,505L361,517L357,522L337,511L330,504L328,492L323,480L316,475L306,463L302,460L296,452L295,447L339,451L363,453L367,408L371,351Z","WY":"M369,156L365,201L361,247L333,244L277,237L244,232L247,210L256,154L258,142L298,148L339,153Z","CT":"M871,184L899,178L902,193L893,197L885,198L874,208L874,201Z","MO":"M502,262L521,262L545,261L571,260L576,265L576,273L578,280L590,290L591,297L601,298L598,313L614,326L614,333L621,340L620,349L617,351L616,351L615,352L612,363L600,364L605,357L604,352L550,355L523,355L523,344L522,295L519,293L514,286L516,278L510,275Z","WV":"M733,295L738,293L739,285L741,280L744,283L746,273L754,269L758,263L761,247L761,239L765,260L782,257L784,269L794,257L800,258L805,253L814,260L813,265L803,259L803,266L797,277L794,275L790,286L784,283L780,297L776,305L777,309L761,318L750,319L747,313L741,311L734,302Z","IL":"M576,265L577,259L581,258L584,248L582,241L593,236L596,224L587,215L634,212L634,217L640,230L645,284L643,288L647,298L638,317L639,320L639,327L632,330L632,337L624,334L621,340L614,333L614,326L598,313L601,298L591,297L590,290L578,280L576,273Z","NM":"M265,328L315,334L349,338L372,339L372,351L371,351L367,408L363,453L339,451L295,447L296,452L264,448L263,458L247,456Z","AR":"M523,355L550,355L604,352L605,357L600,364L612,363L613,367L605,378L607,383L603,387L598,393L599,400L595,402L593,409L590,411L592,415L588,420L591,430L589,433L535,435L535,423L526,421L527,381Z","CA":"M77,374L77,374L77,374ZM75,384L75,384L75,384ZM65,358L65,358L65,358ZM58,374L58,374L58,374ZM57,355L57,355L57,355ZM50,355L50,355L50,355ZM47,353L47,353L47,353ZM33,160L84,175L100,179L83,246L157,356L160,370L163,374L154,380L152,389L148,392L147,400L150,401L149,407L145,407L99,402L98,398L99,388L97,382L86,370L82,369L82,362L76,362L70,357L65,349L49,344L46,340L50,328L46,325L47,321L42,313L35,296L36,289L40,286L31,274L33,261L38,270L36,257L33,260L29,255L27,243L20,229L24,209L18,197L19,193L27,184L31,173Z","DE":"M849,246L849,246L849,246ZM845,245L851,241L850,244L849,249L855,258L861,263L864,270L853,273Z","DC":"M826,267L828,270L826,267Z","HI":"M305,584L310,578L310,573L322,578L326,584L332,589L329,593L317,598L314,603L309,600L309,594ZM292,558L294,555L306,561L305,564L299,566ZM292,567L292,567L292,567ZM284,558L284,558L284,558ZM279,554L280,551L291,553L288,555ZM258,543L265,540L271,549L262,549ZM226,533L231,528L235,529L236,534L230,536ZM216,537L216,537L216,537Z","IA":"M491,195L549,194L576,193L579,199L577,202L580,211L587,215L596,224L593,236L582,241L584,248L581,258L577,259L576,265L571,260L545,261L521,262L502,262L497,234L491,218L488,212L491,204L488,195Z","KY":"M621,340L624,334L632,337L632,330L639,327L639,320L647,315L655,319L661,313L666,314L669,309L674,313L677,305L684,298L683,295L694,292L693,284L699,283L704,290L714,293L721,292L727,288L733,295L734,302L741,311L747,313L741,320L735,325L729,334L720,339L704,341L672,343L645,346L641,350L617,351L620,349ZM616,351L615,352L616,351Z","MD":"M850,285L849,285L850,285ZM847,281L847,281L847,281ZM782,257L816,251L845,245L853,273L864,270L863,280L855,284L852,285L848,276L846,279L841,274L846,271L839,266L842,252L837,254L838,263L836,269L844,284L835,282L830,278L827,280L827,274L828,270L826,267L814,260L805,253L800,258L794,257L784,269Z","MI":"M677,131L677,131L677,131ZM663,133L663,133L663,133ZM662,139L662,139L662,139ZM661,136L661,136L661,136ZM659,142L659,142L659,142ZM657,150L657,150L657,150ZM655,153L655,153L655,153ZM646,140L646,140L646,140ZM652,228L659,216L660,205L659,198L652,184L652,175L655,168L655,160L661,154L664,148L664,156L668,153L667,146L674,142L670,138L675,133L685,135L687,138L697,140L701,147L699,149L702,154L702,162L699,169L695,171L694,177L699,180L705,171L710,168L715,172L722,191L721,200L716,199L715,207L708,222L686,225L686,224ZM601,92L610,86L610,89ZM585,123L594,117L601,116L619,101L624,100L615,112L628,114L633,121L644,121L652,115L662,114L670,111L670,118L676,118L683,115L684,121L694,128L681,129L676,127L674,131L671,128L663,127L661,130L653,131L638,140L632,153L631,148L627,147L628,140L623,135L612,134L607,131L590,128Z","MS":"M644,493L644,493L644,493ZM639,493L639,493L639,493ZM635,494L635,494L635,494ZM632,494L632,494L632,494ZM589,433L591,430L588,420L592,415L590,411L593,409L595,402L599,400L598,393L603,387L642,384L644,386L642,455L646,489L636,490L625,495L618,485L619,477L583,479L584,467L595,448L591,445L591,436Z","MT":"M198,39L233,46L265,52L303,57L340,62L377,66L371,134L369,156L339,153L298,148L258,142L256,154L253,148L250,151L237,148L235,151L225,149L224,142L219,139L215,118L208,123L205,120L209,114L208,109L213,96L209,96L201,80L195,74L197,69L193,62Z","NH":"M886,111L887,105L891,102L905,145L910,150L909,155L903,161L884,165L882,163L881,146L883,133L882,128L888,122Z","NY":"M899,196L899,196L899,196ZM897,198L897,198L897,198ZM869,217L867,221L869,217ZM816,154L816,154L816,154ZM814,154L814,154L814,154ZM768,200L776,192L780,186L775,176L784,172L796,170L800,172L809,169L819,161L815,150L815,146L820,141L829,128L832,124L858,118L862,134L861,140L864,149L867,150L871,168L871,184L874,201L874,208L891,204L895,200L900,202L886,213L872,219L869,216L870,209L855,204L850,202L847,197L841,192L800,201L769,206Z","OH":"M721,223L721,223L721,223ZM719,222L719,222L719,222ZM686,225L708,222L718,225L719,224L726,227L733,223L738,223L748,213L756,209L761,239L761,247L758,263L754,269L746,273L744,283L741,280L739,285L738,293L733,295L727,288L721,292L714,293L704,290L699,283L693,284Z","OR":"M71,70L77,74L80,80L79,87L86,91L98,91L103,95L112,94L139,95L171,102L176,112L157,137L162,143L158,150L149,191L100,179L84,175L33,160L31,157L34,146L33,140L45,121L57,92L65,71Z","TN":"M612,363L615,352L616,351L617,351L641,350L645,346L672,343L704,341L720,339L756,334L751,346L747,345L741,351L738,350L726,362L721,363L717,369L713,371L713,377L689,380L642,384L603,387L607,383L605,378L613,367Z","UT":"M198,201L247,210L244,232L277,237L268,299L265,328L239,324L176,313Z","VA":"M855,284L863,280L858,288L857,301L853,301L853,292ZM850,285L849,285L850,285ZM747,313L750,319L761,318L777,309L776,305L780,297L784,283L790,286L794,275L797,277L803,266L803,259L813,265L814,260L826,267L828,270L827,274L825,279L830,279L832,283L838,283L846,287L849,305L846,310L855,308L859,316L812,326L780,331L756,334L720,339L729,334L735,325L741,320Z","WA":"M93,51L93,51L93,51ZM99,25L99,25L99,25ZM99,20L99,20L99,20ZM98,23L98,23L98,23ZM95,31L95,31L95,31ZM96,18L96,18L96,18ZM94,20L94,20L94,20ZM95,13L95,13L95,13ZM91,21L98,22L96,27ZM91,19L91,19L91,19ZM184,36L171,92L171,102L139,95L112,94L103,95L98,91L86,91L79,87L80,80L77,74L71,70L66,69L64,65L66,57L71,54L67,51L68,34L66,23L70,20L77,27L90,33L95,33L97,39L92,52L96,52L98,42L102,38L101,27L102,21L100,14L140,25Z","WI":"M642,146L642,146L642,146ZM636,150L636,150L636,150ZM584,113L584,113L584,113ZM583,116L583,116L583,116ZM581,115L581,115L581,115ZM580,117L580,117L580,117ZM580,114L580,114L580,114ZM579,113L579,113L579,113ZM579,118L579,118L579,118ZM576,114L576,114L576,114ZM560,121L568,120L576,115L580,120L585,123L590,128L607,131L612,134L623,135L628,140L627,147L631,148L632,153L629,157L626,166L628,166L636,157L642,148L635,165L635,174L632,181L633,185L631,195L634,206L634,212L587,215L580,211L577,202L579,199L576,193L572,182L565,178L564,175L549,166L550,154L551,150L548,147L551,139L556,136L556,122Z","NE":"M365,201L404,204L457,206L466,212L467,210L476,210L491,218L497,234L502,262L510,275L465,275L422,273L394,272L395,249L361,247Z","SC":"M735,374L749,367L772,365L778,371L798,368L823,386L816,392L814,404L801,419L792,424L793,427L786,435L774,423L771,414L766,412L762,406L748,396L741,385L732,382Z","ID":"M171,102L171,92L184,36L198,39L193,62L197,69L195,74L201,80L209,96L213,96L208,109L209,114L205,120L208,123L215,118L219,139L224,142L225,149L235,151L237,148L250,151L253,148L256,154L247,210L198,201L149,191L158,150L162,143L157,137L176,112Z","NV":"M100,179L149,191L198,201L176,313L173,331L170,335L167,331L160,331L157,356L83,246Z","VT":"M858,118L886,111L888,122L882,128L883,133L881,146L882,163L884,165L871,168L867,150L864,149L861,140L862,134Z","LA":"M638,497L638,497L638,497ZM629,498L629,498L629,498ZM624,510L624,510L624,510ZM610,521L610,521L610,521ZM606,521L606,521L606,521ZM602,522L602,522L602,522ZM577,511L577,511L577,511ZM535,435L589,433L591,436L591,445L595,448L584,467L583,479L619,477L618,485L625,495L619,499L624,502L626,498L628,501L627,507L623,508L626,513L632,514L634,522L624,516L620,515L613,521L608,515L601,523L590,517L584,508L579,506L571,513L554,508L541,510L539,507L543,502L542,490L546,484L545,476L540,467L540,463L535,458Z","RI":"M911,183L913,186L911,183ZM908,188L908,188L908,188ZM907,196L907,196L907,196ZM902,193L899,178L905,176L910,182L907,181L908,191Z"};
-const US_CEN={"AL":[672,432],"AK":[103,523],"AZ":[208,382],"CO":[332,290],"FL":[767,516],"GA":[736,428],"IN":[665,269],"KS":[456,309],"ME":[919,94],"MA":[897,172],"MN":[525,132],"NJ":[861,230],"NC":[801,351],"ND":[429,104],"OK":[471,376],"PA":[806,226],"SD":[430,172],"TX":[434,469],"WY":[308,195],"CT":[886,190],"MO":[560,312],"WV":[766,285],"IL":[615,270],"NM":[311,393],"AR":[564,391],"CA":[82,288],"DE":[854,261],"DC":[827,268],"HI":[301,574],"IA":[540,227],"KY":[688,321],"MD":[832,263],"MI":[670,167],"MS":[618,437],"MT":[287,100],"NH":[893,141],"NY":[834,172],"OH":[724,253],"OR":[103,134],"TN":[673,361],"UT":[227,269],"VA":[803,304],"WA":[124,59],"WI":[595,167],"NE":[434,239],"SC":[780,393],"ID":[199,147],"NV":[142,252],"VT":[873,136],"LA":[576,478],"RI":[904,184]};
+const US_CEN={"AL":[674,446],"AK":[107,515],"AZ":[207,399],"CO":[318,294],"FL":[791,540],"GA":[744,444],"IN":[668,280],"KS":[468,314],"ME":[921,97],"MA":[880,179],"MN":[521,120],"NJ":[863,246],"NC":[818,356],"ND":[442,109],"OK":[490,384],"PA":[820,228],"SD":[412,176],"TX":[456,485],"WY":[304,200],"CT":[889,194],"MO":[560,322],"WV":[759,300],"IL":[612,272],"NM":[312,396],"AR":[561,394],"CA":[86,323],"DE":[856,272],"DC":[828,273],"HI":[317,591],"IA":[537,233],"KY":[703,321],"MD":[825,262],"MI":[684,205],"MS":[617,427],"MT":[259,102],"NH":[894,155],"NY":[844,171],"OH":[720,262],"OR":[114,144],"TN":[673,367],"UT":[227,283],"VA":[810,305],"WA":[132,64],"WI":[595,166],"NE":[431,245],"SC":[787,400],"ID":[192,168],"NV":[139,245],"VT":[871,130],"LA":[562,462],"RI":[903,186]};
 /* ================= Events ================= */
 const EVENTS=[
  {id:'hurricane',t:'Hurricane slams the Gulf Coast',x:'A Category 4 storm hits Louisiana and Mississippi. Your campaign has a rally scheduled two states over, featuring a confetti cannon you already paid for.',c:[
@@ -831,7 +831,8 @@ const ACH=[
  {id:'dirt',n:'Opposition researcher',d:'Release dirt on an opponent.'},
  {id:'bandit',n:'Bandit’s boss',d:'Make the raccoon your mascot.'},
  {id:'gracious',n:'Class act',d:'Give a gracious concession speech.'},
- {id:'recount',n:'Hanging chads',d:'Have a state go to a recount on election night.'}
+ {id:'recount',n:'Hanging chads',d:'Have a state go to a recount on election night.'},
+ {id:'agenda',n:'Hidden hand',d:'Complete a secret agenda as a running mate or advisor.'}
 ];
 
 /* ================= Tooltip & glossary text ================= */
@@ -1171,6 +1172,7 @@ function endorseChance(e){const c=P();if(e.id==='popstar'){const ys=isPrimary()?
 function dirtReady(){return opponents().filter(id=>(G.dirt[id]||0)>=100&&!G.plan.some(p=>p.k==='release'&&p.target===id)&&!(G.releasedOn||[]).includes(id));}
 function actionAvail(k){
   const c=P();
+  if(MP.helper&&!['rally','ad','attack','ground','fund','interview','endorse','oppo','petition'].includes(k))return false;
   if(k==='prep'){const up=isPrimary()?G.debateRounds.some(r=>r>=G.round):G.debateWeeks.some(w=>w>G.week);return up&&G.prep+planned('prep')<3;}
   if(k==='bury')return G.secretState==='hidden'&&!planned('confess')&&!planned('bury');
   if(k==='confess')return G.secretState==='hidden'&&!planned('bury')&&!planned('confess');
@@ -1344,9 +1346,9 @@ function weekStart(){
     {l:`Stand by ${c.vp.name}`,fx:{cred:-3,mom:-2},r:'You call it old news. It stays news for a week.'},
     {l:'Make them apologize on TV',fx:{mom:-1,cred:-1},r:'The apology helps. A little.'},
     {l:'Laugh it off',fx:{mom:-1,blocs:{young:2,senior:-2}},r:'Some voters find it charming. Others find it alarming.'}]},extra:{bloc:pick(BK)}});}
-  if(isPrimary()&&G.debateRounds.includes(G.round))q.push(debateSetup('primary'));
-  else if(!isPrimary()&&G.debateWeeks.includes(G.week))q.push(debateSetup('general'));
-  else if(!isPrimary()&&G.week===G.vpDebateWeek&&c.vp)q.push(vpDebate());
+  if(isPrimary()&&G.debateRounds.includes(G.round)){if(G.mp)G.wantLive='primary';else q.push(debateSetup('primary'));}
+  else if(!isPrimary()&&G.debateWeeks.includes(G.week)){if(G.mp)G.wantLive='pres';else q.push(debateSetup('general'));}
+  else if(!isPrimary()&&G.week===G.vpDebateWeek&&c.vp){if(G.mp&&G.humanVP)G.wantLive='vp';else q.push(vpDebate());}
   else if(!isPrimary()&&G.week===G.octWeek){const ev=drawEvent(true);if(ev)q.push({type:'event',ev,extra:{bloc:pick(BK)},tag:'October surprise'});}
   else{
     const n=rnd()<(isPrimary()?.7:.8)?(rnd()<.3?2:1):0;
@@ -1405,7 +1407,7 @@ function executePlan(){
     if(k==='speech'){const cost=speechCost(it.from,it.to);c.pos[it.i]=it.to;c.cred=clamp(c.cred-cost,0,100);const big=Math.abs(it.to-it.from)>=.4;if(big)G.flips++;
       notes.push(`Policy speech: you’re now ${posText(it.i,it.to)}. Credibility −${cost}${big?' (a full flip-flop)':' (a “clarification”)'}.`);tick(big?`${c.name} shifts sharply on ${ISSUES[it.i].n.toLowerCase()}`:`${c.name} “clarifies” position on ${ISSUES[it.i].n.toLowerCase()}`);}
     if(k==='poll')notes.push(runPoll());
-    if(k==='endorse'){const en=ENDORSERS.find(x=>x.id===it.id);if(rnd()<endorseChance(en))notes.push(gainEndorser('P',en));else{notes.push(`${en.n} passed on endorsing you. For now.`);}}
+    if(k==='endorse'){const en=ENDORSERS.find(x=>x.id===it.id);if(rnd()<endorseChance(en)){notes.push(gainEndorser('P',en)+(it.by&&G.seats&&G.seats[it.by]?` (credit: ${G.seats[it.by].name})`:''));if(it.by&&G.seats&&G.seats[it.by])G.seats[it.by].endorseCount=(G.seats[it.by].endorseCount||0)+1;}else{notes.push(`${en.n} passed on endorsing you. For now.`);}}
     if(k==='oppo'){const o=G.cands[it.target];G.dirt[it.target]=Math.min(100,(G.dirt[it.target]||0)+(it.method==='dirty'?55:30));
       if(it.method==='dirty'&&rnd()<.2){c.cred=clamp(c.cred-5,0,100);c.mom=clamp(c.mom-2,-10,10);notes.push(`Your dirty digging on ${o.name} leaked. Credibility −5, momentum −2.`);tick(`Report: ${c.name} campaign hired private eyes to dig through ${o.name}’s trash`);}
       else notes.push(`Opposition research on ${o.name}: ${Math.round(G.dirt[it.target])}% complete.${G.dirt[it.target]>=100?' Ready to release.':''}`);}
@@ -1444,7 +1446,7 @@ function aiTurn(){
   const nBase={easy:3,normal:4,hard:4}[G.diff];
   let natP=null;if(!prim&&G.pollSum)natP=G.pollSum;const TN=(typeof TUNE!=='undefined'?TUNE:{m:1,sp:null});
   const HUM=humanIds();const hv=natP?{ev:Math.max(...HUM.map(h=>natP.ev[h]||0)),pop:Math.max(...HUM.map(h=>natP.pop[h]||0))}:null;
-  const TG=prim?'P':attackTarget(natP,HUM);const TC=G.cands[TG];
+  const TG=prim?(G.humans?(G.primaryField.find(x=>isHumanId(x))||null):'P'):attackTarget(natP,HUM);const TC=G.cands[TG];
   ids.filter(id=>!isHumanId(id)).forEach(id=>{
     const c=G.cands[id];log[id]=[];
     // comeback mode
@@ -1456,7 +1458,7 @@ function aiTurn(){
     const attacksWanted=prim?(rnd()<.5?1:0):(c.comeback?2:rnd()<{easy:.4,normal:.8,hard:.95}[G.diff]?1:0);
     if(!prim&&c.mom<{easy:1.5,normal:3.5,hard:3.5}[G.diff]){n--;c.mom=clamp(c.mom+1.4+(c.stats.cha-3)*.4,-10,10);log[id].push && 0;tick(`${c.name} does a round of prime-time interviews`);}
     for(let k=0;k<n;k++){
-      if(k<attacksWanted){
+      if(k<attacksWanted&&TG){
         const opts=(prim?PRIMARY_ROUNDS[G.round-1].st:ST_LIST.filter(s=>onBallot(TC,s.a)).map(s=>s.a)).map(a=>{const sh=prim?pShares(a):shares(a);const others=Object.entries(sh).filter(([q])=>q!==TG).map(([,v])=>v);const best=Math.max(...others);return {a,v:ST[a].ev*Math.exp(-Math.abs(sh[TG]-best)/.05)*(sh[TG]>.1?1:.1)};}).sort((x,y)=>y.v-x.v);
         if(opts.length){const t=opts[0];const before=prim?pShares(t.a)[TG]:shares(t.a)[TG];addEffort(TG,t.a,'a',-4.5*m);const after=prim?pShares(t.a)[TG]:shares(t.a)[TG];
           attacks.push({id,a:t.a,d:after-before,tgt:TG});tick(`${c.name} attack ad slams ${TC.name} in ${ST[t.a].n}`);continue;}}
@@ -1494,8 +1496,7 @@ function endWeek(){
   const c=P();
   G.mood=(G.mood||0)*.85+gauss()*.6;ST_LIST.forEach(st=>{G.drift[st.a]=(G.drift[st.a]||0)*.9+gauss()*.7;});
   if(c.flaw==='workaholic'){if(G.secretState==='hidden')G.exposure=clamp(G.exposure+3,0,100);if(rnd()<.08){c.mom=clamp(c.mom-2,-10,10);notes.push('You burned out and slept through a rally. Momentum −2.');}}
-  if(G.pollSum&&!isPrimary()){const top=Object.entries(G.pollSum.pop).filter(([id])=>id!=='P').sort((a,b)=>b[1]-a[1])[0];if(top&&top[1]-G.pollSum.pop.P>.04){const b={easy:1.2,normal:.9,hard:.6}[G.diff];c.mom=clamp(c.mom+b,-10,10);notes.push(`Underdog energy: volunteers rally to your campaign. Momentum +${b}.`);}}
-  if(c.perk==='comeback'&&G.pollSum&&!isPrimary()){const top=Object.entries(G.pollSum.pop).sort((a,b)=>b[1]-a[1])[0][0];if(top!=='P'){c.mom=clamp(c.mom+1.2,-10,10);notes.push('Comeback kid: trailing fires you up. Momentum +1.2.');}}
+  if(!isPrimary()){const cu=catchUp(c);if(cu)notes.push(cu);}
   if(G.secretState==='hidden'){
     let lead=0;if(!isPrimary()&&G.pollSum){const top=Object.entries(G.pollSum.pop).sort((a,b)=>b[1]-a[1])[0][0];lead=top==='P'?3:0;}
     const oppDig={easy:1,normal:3,hard:5}[G.diff]*(isPrimary()?.5:1);
@@ -1722,8 +1723,9 @@ function finish(opts){
   if(G.confessed)got.push('confession');
   if(G.released)got.push('dirt');
   if(G.bandit)got.push('bandit');
-  res.legacy=Math.round((res.ev||0)+(res.pop||0)*400+c.cred*2+G.debates.won*25-G.flips*10+(res.won?500:0)+got.length*30+(G.speech?G.speech.legacy:0));
+  res.legacy=(MP.helper&&MP.helper.done?150:0)+Math.round((res.ev||0)+(res.pop||0)*400+c.cred*2+G.debates.won*25-G.flips*10+(res.won?500:0)+got.length*30+(G.speech?G.speech.legacy:0));
   const all=store.get('politicaster.ach')||{};const fresh=got.filter(g=>!all[g]);got.forEach(g=>all[g]=true);store.set('politicaster.ach',all);
+  if(MP.helper&&MP.helper.agenda){res.agenda={text:MP.helper.agenda.text,done:!!MP.helper.done};if(res.agenda.done)got.push('agenda');}
   res.ach=got;res.fresh=fresh;res.title=campaignTitle(res);
   res.breakdown=[['Electoral votes',res.ev||0],['Popular vote',Math.round((res.pop||0)*400)],['Credibility',Math.round(c.cred*2)],['Debates won',G.debates.won*25],['Flip-flops',-G.flips*10],['Victory bonus',res.won?500:0],['Achievements',got.length*30],['Final speech',G.speech?G.speech.legacy:0]];
   try{const hist=store.get('politicaster.history')||[];const map={};if(G.finalSum)for(const a in G.finalSum.lead){const id=G.finalSum.lead[a].id;map[a]=id==='P'?'P':G.cands[id].party;}
@@ -1782,6 +1784,7 @@ function render(){
   else if(UI.screen==='results')html=resultsHTML();
   else if(UI.screen==='history')html=historyHTML();
   else if(UI.screen==='mpwait')html=mpWaitHTML();
+  else if(UI.screen==='mpside')html=mpSideHTML()+modalHTML()+(UI.waiting?mpWaitingOverlay():'');
   if(UI.screen==='game'&&UI.waiting)html+=mpWaitingOverlay();
   if(UI.guide)html+=guideHTML();
   app.innerHTML=html;
@@ -2060,13 +2063,17 @@ function actionsHTML(){
    ${G.prep||planned('prep')?`<small class="muted">Debate prep: ${G.prep} done${planned('prep')?', '+planned('prep')+' planned':''} (max 3)</small>`:''}
   </div>`;
 }
+function mpTicketHTML(){if(!MP.on||!G.mp)return '';
+  if(MP.helper)return `<p><b>Your role</b>${MP.helper.role==='vp'?'Running mate':'Advisor'} for ${esc(MP.helper.nominee)}. You have 2 actions a week; they use the ticket’s money.</p><p><b>Your secret agenda</b>${esc(MP.helper.agenda?MP.helper.agenda.text:'')}</p>`;
+  const hs=(G.humans||[]).filter(h=>G.seats[h]&&G.seats[h].role&&G.seats[h].ticket===MP.seat);if(!hs.length)return '';
+  return `<p><b>Your ticket</b></p>${hs.map(h=>`<div class="marge-rec"><div class="row"><span>${esc(G.cands[h].name)}, ${G.seats[h].role==='vp'?'running mate':'advisor'}</span><button class="btn sm" data-act="kickhelper" data-v="${h}" ${(G.kicks||[]).includes(h)?'disabled':''}>${(G.kicks||[]).includes(h)?'Dropping':'Drop from ticket'}</button></div></div>`).join('')}<small class="muted">Dropping someone costs 6 credibility, and they run against you as an independent.</small>`;}
 function staffHTML(){
   const adv=margeAdvice();const t=adv.top;
   return `<div class="panel staff"><h3>Staff</h3>
    <p><b>Marge, campaign manager</b>${esc(adv.situation)}</p>
    ${t&&apLeft()>0?`<div class="marge-rec"><div class="row"><span><b>${esc(recLabel(t))}</b>${esc(t.why)}</span><button class="btn sm" data-act="margeadd" aria-label="Add Marge’s suggestion">Add</button></div></div>`:''}
    <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px"><button class="btn sm" data-act="coach">Coaching</button>${apLeft()>0?'<button class="btn sm" data-act="margeplan">Let Marge plan this week</button>':''}</div>
-   <p><b>Tanner, intern</b>${esc(G.intern)}</p></div>`;
+   <p><b>Tanner, intern</b>${esc(G.intern)}</p>${mpTicketHTML()}</div>`;
 }
 function tickerHTML(){
   const items=G.ticker.map(t=>`<span><em>${esc(t.net)}</em>${esc(t.text)}</span>`).join('');
@@ -2120,6 +2127,11 @@ function modalHTML(){
     body=`<p>Two weeks ago they gave big. Now they want you to move ${m.str.dir<0?'left':'right'} on ${ISSUES[m.str.i].n.toLowerCase()}. You’re currently at ${esc(posText(m.str.i,P().pos[m.str.i]))}.</p>
      <div class="choices"><button class="choice" data-act="string" data-v="comply" data-autofocus>Give them what they want<small>Your position shifts 25%. Might count as a flip-flop.</small></button>
      <button class="choice" data-act="string" data-v="refuse">Tell them no<small>No more donor dinners for 3 weeks, and they may leak things.</small></button></div>`;}
+  if(m.type==='loserpath'){tag='Convention';title='You lost the primary. What now?';
+    body=`<p>${esc(m.nominee)} won the nomination. Choose your path for the general election:</p><div class="choices">
+     <button class="choice" data-act="loserpath" data-v="indep" data-autofocus>Run as an independent<small>Your own party, a late start, fewer state ballots, and a short petition window.</small></button>
+     <button class="choice" data-act="loserpath" data-v="vp">Become the running mate<small>Join the ticket, get 2 actions a week, and play the VP debate. Comes with a secret agenda. If someone else already took the spot, you’ll advise instead.</small></button>
+     <button class="choice" data-act="loserpath" data-v="advisor">Become an advisor<small>Join the campaign with 2 actions a week and a secret agenda.</small></button></div>`;}
   if(m.type==='eventResult'){title=m.title;body=`<p>${esc(m.r)}</p>${fxHTML(m.list)}<div class="choices"><button class="btn primary" data-act="close" data-autofocus>Back to the campaign</button></div>`;}
   if(m.type==='note'){tag='Update';title=m.title;body=`${m.html}<div class="choices"><button class="btn primary" data-act="close" data-autofocus>Continue</button></div>`;}
   if(m.type==='scandal'){tag='Exclusive';title='Your secret is out';
@@ -2140,7 +2152,7 @@ function modalHTML(){
      <tr><td><b>Total delegates</b></td>${(m.field||G.primaryField).map(id=>`<td class="num"><b>${G.delegates[id]}</b></td>`).join('')}</tr></table>
      ${m.drops&&m.drops.length?`<p><b>Dropping out:</b> ${m.drops.map(d=>`${esc(G.cands[d.id].name)} (endorses ${esc(d.to==='P'?'you':G.cands[d.to].name)})`).join('; ')}</p>`:''}
      <p class="muted">${m.roundWin==='P'?'Winning the round gives you a momentum boost going forward.':`${esc(G.cands[m.roundWin].name)} gets a momentum boost from winning the round.`}${m.round<G.rounds?` Next up: ${PRIMARY_ROUNDS[m.round].n}.`:''}</p>
-     <div class="choices"><button class="btn primary" data-act="primnext" data-autofocus>${m.round<G.rounds?'On to the next round':'See who wins the nomination'}</button></div>`;}
+     <div class="choices"><button class="btn primary" data-act="${G.mp?'close':'primnext'}" data-autofocus>${m.round<G.rounds?'On to the next round':'See who wins the nomination'}</button></div>`;}
   if(m.type==='debate'){tag='Debate night';const opp=mainOpp();const oc=opp?G.cands[opp]:null;
     if(m.done){title=m.done==='won'?'You won the debate':m.done==='lost'?'You lost the debate':'The debate is a draw';
       body=`<div class="dial"><i style="left:calc(${clamp(50+m.score*12,2,98)}% - 2px)"></i></div><p>${m.done==='won'?'Focus groups are glowing. Momentum +4, credibility +2.':m.done==='lost'?'Focus groups wince. Momentum −3.':'Both sides claim victory. No real change.'}</p>
@@ -2261,6 +2273,7 @@ function resultsHTML(){
   const achAll=store.get('politicaster.ach')||{};
   return `<div class="wrap"><div class="brand">Politicaster</div>${head}
    <p class="num" style="font-size:28px;margin:6px 0">“${esc(r.title||'')}”</p>
+   ${r.agenda?`<div class="panel" style="border-left:4px solid var(--chyron)"><h3>Your secret agenda</h3><p style="margin:0">${esc(r.agenda.text)}</p><p class="num ${r.agenda.done?'up':'down'}" style="font-size:22px;margin:6px 0 0">${r.agenda.done?'Completed: a personal win, plus 150 legacy points':'Not completed'}</p></div>`:''}
    ${!r.lostNomination&&G.pollHistory&&G.pollHistory.length>1?`<div class="panel"><h3>Campaign timeline</h3>${trendSVG(600,160)}<div class="legend">${G.active.map(id=>`<span><i style="background:${colorOf(id)}"></i>${esc(G.cands[id].name)}</span>`).join('')}</div></div>`:''}
    ${G.speech?`<p><b>Your speech:</b> ${esc(G.speech.n)}. ${esc(G.speech.d)}</p>`:''}
    <div class="panel" style="margin-top:18px"><h3>Legacy score <span class="num">${r.legacy}</span></h3>
@@ -2282,6 +2295,8 @@ function handleAct(act,v,ds){
    case 'new':UI.S=newSetup();UI.screen='setup';G=null;UI.tut=null;Music.play('menu');render();break;
    case 'continue':G=store.get('politicaster.save');if(G){UI.screen='game';UI.modal=null;UI.mq=[];UI.pending=null;G.plan=G.plan||[];if(G.phase==='general'&&!G.polls)computePolls();Music.play('plan');render();}break;
    case 'theme':{const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme==='dark':window.matchMedia('(prefers-color-scheme: dark)').matches;r.dataset.theme=dark?'light':'dark';store.set('politicaster.theme',r.dataset.theme);break;}
+   case 'loserpath':G.loserChoice=v;UI.modal={type:'note',title:'Choice locked in',html:`<p>${v==='indep'?'You’ll launch an independent campaign.':v==='vp'?'You’ve asked to be the running mate.':'You’ll join as an advisor.'} It takes effect when the general election starts.</p>`};render();break;
+   case 'kickhelper':if(!(G.kicks||[]).includes(v))G.kicks=(G.kicks||[]).concat([v]);UI.flash=`${G.cands[v]?G.cands[v].name:'They'} will be dropped from the ticket at the end of this week (credibility −6).`;render();break;
    case 'multiplayer':if(SHELL.onMultiplayer)SHELL.onMultiplayer();break;
    case 'music':Music.toggle();render();break;
    case 'sfx':SFX.toggle();render();break;
@@ -2369,28 +2384,53 @@ function hoverState(a){if(UI.hover===a)return;UI.hover=a;const si=document.getEl
 LISTEN('mouseover',e=>{const t=e.target.closest&&e.target.closest('[data-act="tile"]');if(!t||UI.screen!=='game')return;hoverState(t.dataset.v);});
 LISTEN('focusin',e=>{const t=e.target.closest&&e.target.closest('[data-act="tile"]');if(!t||UI.screen!=='game')return;hoverState(t.dataset.v);});
 LISTEN('keydown',e=>{if(e.key==='Escape'){if(UI.guide){UI.guide=null;render();}else if(UI.pending){UI.pending=null;render();}else if(UI.modal&&UI.modal.type==='coach'){UI.modal=null;render();}}});
-/* ================= Multiplayer (versus) =================
- * Canonical multiplayer state stores human candidates as h0..h3 with per-player data in
- * G.seats. To run any existing single-player code for one human, activateSeat() renames
- * that human to 'P' and swaps their personal fields (plan, cash, secret, dialogs, RNG...)
- * onto G. deactivateSeat() puts everything back. The host replays each player's recorded
- * clicks with that player's own RNG stream, so results match what the player saw.
+/* ================= Multiplayer =================
+ * Canonical state stores human candidates as h0..h3 with personal data in G.seats.
+ * activateSeat() renames one human to 'P' and swaps their data onto G so all single-player
+ * code runs unchanged; deactivateSeat() reverses it. During primaries each party's race
+ * lives in G.prim[party] and is swapped in the same way.
+ * The host replays each player's recorded clicks against the snapshot they saw, with their
+ * own RNG stream, so dialog outcomes match exactly what that player saw.
  */
-const MP={lastReplay:{},on:false,log:[],seat:null,party:'D',room:'',onEndWeek:null,onSetupDone:null,onExit:null,waitingNames:[]};
-const MP_REC=new Set(['action','unplan','staff','cancelpick','tile','evchoice','close','scandal','vet','vp','platform','speechok','oppotarget','oppogo','releasego','endorsego','string','debate','rebut','debnext','coach','coachadd','margeadd','margeplan']);
-const SEAT_FIELDS=['plan','cash','staff','apWeek','prep','exposure','secret','secretState','flips','scandals','confessed','flags','dirt','strings','donorBlock','revealed','notes','debates','customParty','prevBloc','intern','released','releasedOn','minorAsked','usedQ','recentEv','trailedFinal','speech','scandalPending','recap','mq','usedEvents','bandit','recounted','unity','ballotDeadline'];
+const MP={lastReplay:{},on:false,log:[],seat:null,party:'D',room:'',onEndWeek:null,onSetupDone:null,onExit:null,waitingNames:[],helper:null,blockEnd:false,side:null};
+const MP_REC=new Set(['action','unplan','staff','cancelpick','tile','evchoice','close','scandal','vet','vp','platform','speechok','oppotarget','oppogo','releasego','endorsego','string','debate','rebut','debnext','coach','coachadd','margeadd','margeplan','kickhelper','loserpath']);
+const SEAT_FIELDS=['plan','cash','staff','apWeek','prep','exposure','secret','secretState','flips','scandals','confessed','flags','dirt','strings','donorBlock','revealed','notes','debates','customParty','prevBloc','intern','released','releasedOn','minorAsked','usedQ','recentEv','trailedFinal','speech','scandalPending','recap','mq','usedEvents','bandit','recounted','unity','ballotDeadline','kicks','loserChoice'];
+const PRIM_KEYS=['primaryField','delegates','pColor','pResults','pPolls','pBias','dropped'];
 const HUMAN_QUOTES=['I’m not here to make promises. I’m here to make better promises.','My opponent has a plan. I have a better one, and also a slogan.','Let’s be honest: I’m the only one up here who reads the polls for fun.'];
+const AI_DEBATE_LINES={policy:'Here’s my plan, in three parts, with numbers.',message:'Let’s talk about what really matters to your family.',attack:'My opponents have had their chance, and they blew it.',joke:'I’d answer that, but my teleprompter just unionized.'};
 function rk(o,f,t){if(o&&Object.prototype.hasOwnProperty.call(o,f)){o[t]=o[f];delete o[f];}}
 function renameId(f,t){
   rk(G.cands,f,t);if(G.cands[t])G.cands[t].id=t;
-  G.active=G.active.map(x=>x===f?t:x);
+  G.active=(G.active||[]).map(x=>x===f?t:x);
   rk(G.effort,f,t);rk(G.endorsed,f,t);
   [G.polls,G.prevPolls,G.pollBias,G.final].forEach(m=>{if(m)for(const a in m)rk(m[a],f,t);});
   [G.pollSum,G.finalSum].forEach(x=>{if(!x)return;rk(x.ev,f,t);rk(x.pop,f,t);for(const a in x.lead)if(x.lead[a].id===f)x.lead[a].id=t;});
   (G.pollHistory||[]).forEach(h=>{rk(h.sh,f,t);if(h.ev)rk(h.ev,f,t);});
 }
-function activateSeat(s){const st=G.seats[s];G._active=s;renameId(s,'P');SEAT_FIELDS.forEach(f=>{G[f]=st[f];});G._grng=G.rng;G.rng=st.rng;}
-function deactivateSeat(){const s=G._active;if(!s)return;const st=G.seats[s];SEAT_FIELDS.forEach(f=>{st[f]=G[f];delete G[f];});st.rng=G.rng;G.rng=G._grng;delete G._grng;renameId('P',s);G._active=null;}
+function renamePrim(f,t){
+  if(G.primaryField)G.primaryField=G.primaryField.map(x=>x===f?t:x);
+  rk(G.delegates,f,t);rk(G.pColor,f,t);
+  if(G.pResults)for(const a in G.pResults)if(G.pResults[a]===f)G.pResults[a]=t;
+  [G.pPolls,G.pBias].forEach(m=>{if(m)for(const a in m)rk(m[a],f,t);});
+  (G.dropped||[]).forEach(d=>{if(d.id===f)d.id=t;if(d.to===f)d.to=t;});
+}
+const primPhase=()=>G.prim&&(G.phase==='primary'||G.phase==='convention'||G.phase==='over');
+function loadPrim(party){const ct=G.prim&&G.prim[party];if(!ct)return false;PRIM_KEYS.forEach(k=>{G[k]=ct[k];});return true;}
+function savePrim(party){const ct=G.prim&&G.prim[party];if(!ct)return;PRIM_KEYS.forEach(k=>{ct[k]=G[k];delete G[k];});}
+function canonActive(){if(G.phase==='primary'&&G.prim)G.active=[].concat(...Object.values(G.prim).map(c=>c.primaryField));}
+function activateSeat(s){
+  const st=G.seats[s];G._active=s;
+  if(primPhase()&&!st.sideline&&loadPrim(G.cands[s].party))G._primParty=G.cands[s].party;
+  renameId(s,'P');
+  if(G._primParty){renamePrim(s,'P');if(G.phase==='primary')G.active=G.primaryField.slice();}
+  SEAT_FIELDS.forEach(f=>{G[f]=st[f];});G._grng=G.rng;G.rng=st.rng;
+}
+function deactivateSeat(){
+  const s=G._active;if(!s)return;const st=G.seats[s];
+  SEAT_FIELDS.forEach(f=>{st[f]=G[f];delete G[f];});st.rng=G.rng;G.rng=G._grng;delete G._grng;
+  if(G._primParty){renamePrim('P',s);savePrim(G._primParty);delete G._primParty;}
+  renameId('P',s);canonActive();G._active=null;
+}
 /** Run fn without touching this browser's screen, game, or recording state. */
 function headless(fn){const saved={G,app,ui:{...UI},roster:ROSTER,on:MP.on,log:MP.log};app=null;MP.on=false;
   try{return fn();}finally{G=saved.G;app=saved.app;for(const k in UI)if(!(k in saved.ui))delete UI[k];Object.assign(UI,saved.ui);ROSTER=saved.roster;MP.on=saved.on;MP.log=saved.log;}}
@@ -2399,53 +2439,64 @@ function newSeat(e,i,bg,S,cp,seed){
   return {uid:e.uid,name:e.name,plan:[],cash:20+(bg.cash||0),staff:'standard',apWeek:4,prep:S.bg==='cabinet'?1:0,
     exposure:S.secret==='none'?0:10,secret:S.secret==='none'?null:(S.secret==='random'?pick(SECRETS):SECRETS[+S.secret]),secretState:S.secret==='none'?'none':'hidden',
     flips:0,scandals:0,confessed:false,flags:{},dirt:{},strings:[],donorBlock:0,revealed:[],notes:[],debates:{won:0,lost:0,draw:0,total:0},customParty:cp,
-    prevBloc:null,intern:pick(INTERN),released:false,releasedOn:[],minorAsked:[],usedQ:[],recentEv:[],usedEvents:[],mq:[],rng:seedMix(seed,i),ballotDeadline:G.pace==='quick'?3:4};
+    prevBloc:null,intern:pick(INTERN),released:false,releasedOn:[],minorAsked:[],usedQ:[],recentEv:[],usedEvents:[],mq:[],rng:seedMix(seed,i),ballotDeadline:G.pace==='quick'?3:4,kicks:[]};
 }
-/** Host: build a new versus game from each player's finished setup. entries are in seat order. */
+function defaultBallot(late){const b={};ST_LIST.forEach(s=>{if(late?s.ev>=20:(s.ev>=10||Math.abs(s.lean)<=4))b[s.a]=true;});return b;}
+function addHuman(e,i,seed){
+  const id='h'+i,S={...e.setup},bg=BGS[S.bg];
+  const stats=S.stats?{...S.stats}:{...bg.stats};if(S.perk==='silver')stats.deb=Math.min(6,stats.deb+1);
+  let cp=null;
+  const c={id,party:S.party,name:S.name.trim(),title:bg.title,home:S.home,pos:S.pos.slice(),stats,cred:bg.cred+(S.perk==='bipartisan'?3:0),mom:(bg.mom||0)*.5,bm:{},perk:S.perk,flaw:S.flaw,bg:S.bg,vp:null,pq:5,bio:{...S.bio},minor:{...S.minor},ebm:{},quotes:HUMAN_QUOTES,blurb:'A player-run campaign.'};
+  if(S.party==='C'){cp={name:S.cp.name.trim(),color:S.cp.color,values:S.cp.values.slice(),base:S.cp.base.slice()};c.cp=cp;c.ballot=defaultBallot(false);}
+  refreshStatic(c);G.cands[id]=c;G.humans.push(id);
+  const st=newSeat(e,i,bg,S,cp,seed);G.seats[id]=st;c.secret=st.secret||'Their campaign finances are a mess';
+  return id;
+}
+/** Host: build a new game from each player's finished setup (entries in seat order). */
 function createMulti(entries,settings,seed){return headless(()=>{
-  const e0=entries[0];
+  const prim=!!settings.primaries;const e0=entries[0];
   UI.S={...e0.setup,diff:settings.diff||'normal',pace:settings.pace||'standard',primaries:false,seed:seed|0};UI.mq=[];
   startGame();
   G.mp=true;G.humans=['h0'];G.seats={h0:{uid:e0.uid,name:e0.name}};
   const p0=G.cands.P;p0.quotes=HUMAN_QUOTES;p0.blurb='A player-run campaign.';p0.secret=G.secret||'Their campaign finances are a mess';
-  G._active='h0';G._grng=G.rng;G.rng=seedMix(seed,0);G.mq=[{type:'vp',opts:vpOptions()}];
-  deactivateSeat();
-  entries.slice(1).forEach((e,j)=>{
-    const i=j+1,id='h'+i,S={...e.setup},bg=BGS[S.bg];
-    const stats=S.stats?{...S.stats}:{...bg.stats};if(S.perk==='silver')stats.deb=Math.min(6,stats.deb+1);
-    let cp=null;
-    const c={id,party:S.party,name:S.name.trim(),title:bg.title,home:S.home,pos:S.pos.slice(),stats,cred:bg.cred+(S.perk==='bipartisan'?3:0),mom:(bg.mom||0)*.5,bm:{},perk:S.perk,flaw:S.flaw,bg:S.bg,vp:null,pq:5,bio:{...S.bio},minor:{...S.minor},ebm:{},quotes:HUMAN_QUOTES,blurb:'A player-run campaign.'};
-    if(S.party==='C'){cp={name:S.cp.name.trim(),color:S.cp.color,values:S.cp.values.slice(),base:S.cp.base.slice()};c.cp=cp;c.ballot={};ST_LIST.forEach(s=>{if(s.ev>=10||Math.abs(s.lean)<=4)c.ballot[s.a]=true;});}
-    refreshStatic(c);G.cands[id]=c;
-    const ai=S.party==='C'?null:G.active.find(x=>!isHumanId(x)&&G.cands[x].party===S.party);
-    if(ai)G.active=G.active.map(x=>x===ai?id:x);else G.active.push(id);
-    G.humans.push(id);
-    const st=newSeat(e,i,bg,S,cp,seed);G.seats[id]=st;c.secret=st.secret||'Their campaign finances are a mess';
-    tick(`${fullName(c)} enters the race${S.party==='C'?' for the '+cp.name:''}`);
-    activateSeat(id);G.mq=[{type:'vp',opts:vpOptions()}];deactivateSeat();
-  });
-  computePolls();G.prevPolls=null;G.pollHistory=[{w:0,sh:{...G.pollSum.pop},ev:{...G.pollSum.ev}}];
-  G.humans.forEach(s=>{activateSeat(s);G.prevBloc=blocSupport();deactivateSeat();});
+  G._active='h0';G._grng=G.rng;G.rng=seedMix(seed,0);G.kicks=[];deactivateSeat();
+  entries.slice(1).forEach((e,j)=>{const id=addHuman(e,j+1,seed);tick(`${fullName(G.cands[id])} enters the race`);});
+  if(prim&&G.humans.some(h=>G.cands[h].party!=='C'))setupPrimariesMP();
+  else{
+    // Straight to the general: humans replace their party's AI nominee.
+    G.humans.slice(1).forEach(id=>{const party=G.cands[id].party;const ai=party==='C'?null:G.active.find(x=>!isHumanId(x)&&G.cands[x].party===party);
+      if(ai)G.active=G.active.map(x=>x===ai?id:x);else if(!G.active.includes(id))G.active.push(id);});
+    computePolls();G.prevPolls=null;G.pollHistory=[{w:0,sh:{...G.pollSum.pop},ev:{...G.pollSum.ev}}];
+    G.humans.forEach(s=>{activateSeat(s);G.prevBloc=blocSupport();G.mq=[{type:'vp',opts:vpOptions()}];deactivateSeat();});
+  }
   return G;
 });}
-function replayInput(ai,val){if(!UI.modal)return;if(ai==='speechi'){UI.modal.i=+val;UI.modal.to=P().pos[+val];}if(ai==='speechto')UI.modal.to=+val/50;}
-function seatWeekly(notes){
-  const c=P();
-  if(c.flaw==='workaholic'){if(G.secretState==='hidden')G.exposure=clamp(G.exposure+3,0,100);if(rnd()<.08){c.mom=clamp(c.mom-2,-10,10);notes.push('You burned out and slept through a rally. Momentum −2.');}}
-  if(G.pollSum){const top=Object.entries(G.pollSum.pop).filter(([id])=>id!=='P').sort((a,b)=>b[1]-a[1])[0];if(top&&top[1]-G.pollSum.pop.P>.04){const b={easy:1.2,normal:.9,hard:.6}[G.diff];c.mom=clamp(c.mom+b,-10,10);notes.push(`Underdog energy: volunteers rally to your campaign. Momentum +${b}.`);}}
-  if(c.perk==='comeback'&&G.pollSum){const top=Object.entries(G.pollSum.pop).sort((a,b)=>b[1]-a[1])[0][0];if(top!=='P'){c.mom=clamp(c.mom+1.2,-10,10);notes.push('Comeback kid: trailing fires you up. Momentum +1.2.');}}
-  if(G.secretState==='hidden'){let lead=0;if(G.pollSum){const top=Object.entries(G.pollSum.pop).sort((a,b)=>b[1]-a[1])[0][0];lead=top==='P'?3:0;}
-    const inc=(3+lead+{easy:0,normal:1,hard:3}[G.diff]+{easy:1,normal:3,hard:5}[G.diff])*(c.perk==='teflon'?.6:1);G.exposure=clamp(G.exposure+inc,0,100);
-    if(G.exposure>=100)G.scandalPending=true;else if(G.exposure>=75)notes.push(`Warning: your secret is at ${Math.round(G.exposure)}% exposure.`);}
+function setupPrimariesMP(){
+  G.phase='primary';G.round=1;G.rounds=PRIMARY_ROUNDS.length;G.debateRounds=G.pace==='standard'?[2]:[];
+  G.prim={};G.effort={};delete G.polls;delete G.pollSum;delete G.prevPolls;G.pollHistory=[];G.active=[];
+  ['D','R'].forEach(party=>{
+    const hs=G.humans.filter(h=>G.cands[h].party===party);if(!hs.length)return;
+    const ais=shuffle(ROSTER.filter(r=>r.party===party)).slice(0,Math.max(1,Math.min(3,4-hs.length))).map(r=>r.id);
+    const field=[...hs,...ais];const ct={primaryField:field,delegates:{},pColor:{},pResults:{},pPolls:null,pBias:{},dropped:[]};
+    field.forEach((id,i)=>{ct.delegates[id]=0;if(i>0)ct.pColor[id]=PRIM_COLORS[(i-1)%PRIM_COLORS.length];});
+    G.prim[party]=ct;loadPrim(party);G.active=G.primaryField.slice();pPolls();savePrim(party);
+    tick(`${field.length} candidates enter the ${partyName(party)} primary`);
+  });
+  canonActive();
+  G.humans.forEach(h=>{if(G.cands[h].party==='C')G.seats[h].sideline=true;});
+  G.humans.forEach(h=>{const st=G.seats[h];if(st.sideline){st.mq=[{type:'note',title:'Your party has no primary',html:'<p>While the major parties fight their primaries, your volunteers are collecting ballot signatures. You’ll start the general election on more state ballots and with extra cash.</p>'}];return;}
+    activateSeat(h);UI.mq=[];UI.modal=null;weekStart();G.mq=[UI.modal,...UI.mq].filter(Boolean);deactivateSeat();});
+  finalizeLive();
 }
-/** Host: resolve one week. logs = { seatId: { log: [...clicks], plan: [...] } }. Returns the next state. */
-function resolveMulti(state,logs){return headless(()=>{
+function finalizeLive(){if(G.wantLive){G.liveDebate={kind:G.wantLive,week:G.week||0,round:G.round||0};delete G.wantLive;}}
+function replaySeats(state,logs){
+  // Replay each player's clicks against the SAME snapshot they saw, then merge everyone's results.
   const orig=JSON.stringify(state);const fresh=()=>{G=JSON.parse(orig);ROSTER=G.roster||[];};
-  // 1. Replay each player's clicks against the SAME snapshot they saw, so dialog outcomes match exactly.
+  const S0=JSON.parse(orig);const actors=S0.humans.filter(s=>{const st=S0.seats[s];return !st.out&&!st.role&&!(st.sideline&&S0.phase==='primary');});
   const res={};
-  JSON.parse(orig).humans.forEach(s=>{
+  actors.forEach(s=>{
     fresh();
-    const others={};G.active.forEach(id=>{if(id!==s)others[id]={mom:G.cands[id].mom,cred:G.cands[id].cred};});
+    const others={};(G.active||[]).forEach(id=>{if(id!==s&&G.cands[id])others[id]={mom:G.cands[id].mom,cred:G.cands[id].cred};});
     const mood0=G.mood||0;TICK_CAP=[];
     activateSeat(s);
     UI.screen='game';UI.mq=(G.mq||[]).slice();UI.modal=UI.mq.shift()||null;UI.pending=null;UI.flash='';UI.guide=null;
@@ -2458,49 +2509,260 @@ function resolveMulti(state,logs){return headless(()=>{
     res[s]={seat:G.seats[s],cand:G.cands[s],effort:G.effort[s],endorsed:G.endorsed[s],od,mood:(G.mood||0)-mood0,ticks:TICK_CAP};
     TICK_CAP=null;
   });
-  // 2. Merge everyone's results into one state.
   fresh();
-  G.humans.forEach(s=>{const r=res[s];G.seats[s]=r.seat;G.cands[s]=r.cand;if(r.effort)G.effort[s]=r.effort;if(r.endorsed)G.endorsed[s]=r.endorsed;
+  actors.forEach(s=>{const r=res[s];G.seats[s]=r.seat;G.cands[s]=r.cand;if(r.effort)G.effort[s]=r.effort;if(r.endorsed)G.endorsed[s]=r.endorsed;
     for(const id in r.od){const c=G.cands[id];c.mom=clamp(c.mom+r.od[id].mom,-10,10);c.cred=clamp(c.cred+r.od[id].cred,0,100);}
     G.mood=(G.mood||0)+r.mood;G.ticker=r.ticks.slice().reverse().concat(G.ticker).slice(0,14);});
-  // 3. The host runs everyone's plans, in seat order.
+  G.lastDebate=null;
+  return actors;
+}
+/** Host: resolve one turn. logs = { seatId: { log: [...clicks], plan: [...] } }. Returns the next state. */
+function resolveMulti(state,logs){return headless(()=>{
+  const actors=replaySeats(state,logs);
+  if(G.phase==='primary')return resolvePrimaryMP(actors);
+  if(G.phase==='convention')return resolveConventionMP();
+  return resolveGeneralMP(actors,logs);
+});}
+function catchUp(c){
+  // One combined boost when trailing: scales with the deficit and fades as you close the gap.
+  if(!G.pollSum)return null;const top=Object.entries(G.pollSum.pop).filter(([id])=>id!=='P').sort((a,b)=>b[1]-a[1])[0];if(!top)return null;
+  const gap=top[1]-G.pollSum.pop.P;const start=c.perk==='comeback'?.01:.025;if(gap<=start)return null;
+  let b=Math.min(1,(gap-start)*20)*{easy:1.1,normal:.8,hard:.55}[G.diff];if(c.perk==='comeback')b*=1.5;b=Math.round(b*10)/10;if(b<.1)return null;
+  c.mom=clamp(c.mom+b,-10,10);return c.perk==='comeback'?`Comeback kid: trailing by ${pct(gap)} fires you up. Momentum +${b}.`:`Underdog energy: volunteers rally to your campaign. Momentum +${b}.`;
+}
+function seatWeekly(notes){
+  const c=P();
+  if(c.flaw==='workaholic'){if(G.secretState==='hidden')G.exposure=clamp(G.exposure+3,0,100);if(rnd()<.08){c.mom=clamp(c.mom-2,-10,10);notes.push('You burned out and slept through a rally. Momentum −2.');}}
+  if(!isPrimary()){const cu=catchUp(c);if(cu)notes.push(cu);}
+  if(G.secretState==='hidden'){let lead=0;if(G.pollSum&&!isPrimary()){const top=Object.entries(G.pollSum.pop).sort((a,b)=>b[1]-a[1])[0][0];lead=top==='P'?3:0;}
+    const inc=(3+lead+{easy:0,normal:1,hard:3}[G.diff]+{easy:1,normal:3,hard:5}[G.diff]*(isPrimary()?.5:1))*(c.perk==='teflon'?.6:1);G.exposure=clamp(G.exposure+inc,0,100);
+    if(G.exposure>=100)G.scandalPending=true;else if(G.exposure>=75)notes.push(`Warning: your secret is at ${Math.round(G.exposure)}% exposure.`);}
+}
+function mpPrimaryRound(){
+  const r=PRIMARY_ROUNDS[G.round-1];const rows=[];const roundDel={};const field=G.primaryField.slice();field.forEach(id=>roundDel[id]=0);
+  r.st.forEach(a=>{let sh=pShares(a);for(const id in sh)sh[id]=Math.max(.001,sh[id]+gauss()*.02);const t=Object.values(sh).reduce((x,y)=>x+y,0);for(const id in sh)sh[id]/=t;
+    const del=ST[a].ev*10;const elig=Object.entries(sh).filter(([,v])=>v>=.15);const et=elig.reduce((x,[,v])=>x+v,0);
+    elig.forEach(([id,v])=>{const d=Math.round(del*v/et);G.delegates[id]+=d;roundDel[id]+=d;});
+    const win=Object.entries(sh).sort((x,y)=>y[1]-x[1])[0][0];G.pResults[a]=win;rows.push({a,sh,win});});
+  const roundWin=Object.entries(roundDel).sort((x,y)=>y[1]-x[1])[0][0];
+  G.cands[roundWin].mom=clamp(G.cands[roundWin].mom+4,-10,10);tick(`${G.cands[roundWin].name} wins ${r.n}`);
+  const drops=[];
+  if(G.round<G.rounds){
+    const rivals=G.primaryField.filter(i=>!isHumanId(i)).sort((a,b)=>G.delegates[a]-G.delegates[b]);const maxD=Math.max(...G.primaryField.map(i=>G.delegates[i]));
+    rivals.forEach((id,idx)=>{if(G.primaryField.length-drops.length<=2)return;if(idx===0&&rivals.length>=3||G.delegates[id]<maxD*.2&&G.round>=2)drops.push(id);});
+    drops.forEach(id=>{const rest=G.primaryField.filter(x=>x!==id&&!drops.includes(x));const c=G.cands[id];
+      const to=rest.slice().sort((x,y)=>{const d=q=>G.cands[q].pos.reduce((s,v,i)=>s+Math.abs(v-c.pos[i]),0);return d(x)-d(y);})[0];
+      G.cands[to].mom=clamp(G.cands[to].mom+2,-10,10);G.dropped.push({id,to});tick(`${c.name} drops out and endorses ${G.cands[to].name}`);});
+    G.primaryField=G.primaryField.filter(x=>!drops.includes(x));
+  }
+  return {rows,field,roundWin,roundDel,drops:drops.map(id=>({id,to:G.dropped.find(d=>d.id===id).to}))};
+}
+function resolvePrimaryMP(actors){
   const ctx={};
-  G.humans.forEach(s=>{activateSeat(s);ctx[s]={before:snapshot(),notes:(G.notes||[]).concat(executePlan())};deactivateSeat();});
+  actors.forEach(s=>{activateSeat(s);ctx[s]={notes:(G.notes||[]).concat(executePlan())};deactivateSeat();});
+  const aiBy={};Object.keys(G.prim).forEach(party=>{loadPrim(party);G.active=G.primaryField.slice();aiBy[party]=aiTurn();savePrim(party);});
+  canonActive();decayAll();G.turn=(G.turn||0)+1;
+  G.mood=(G.mood||0)*.85+gauss()*.6;ST_LIST.forEach(st=>{G.drift[st.a]=(G.drift[st.a]||0)*.9+gauss()*.7;});
+  actors.forEach(s=>{activateSeat(s);seatWeekly(ctx[s].notes);deactivateSeat();});
+  const round=G.round;const rr={};
+  Object.keys(G.prim).forEach(party=>{loadPrim(party);G.active=G.primaryField.slice();rr[party]=mpPrimaryRound();savePrim(party);});
+  canonActive();
+  G.humans.forEach(s=>{const st=G.seats[s];
+    if(st.sideline){st.mq=[{type:'note',title:`${PRIMARY_ROUNDS[round-1].n} results`,html:`<p>${Object.keys(rr).map(p=>`${esc(partyName(p))}: ${esc(G.cands[rr[p].roundWin].name)} wins the round.`).join(' ')}</p>`}];return;}
+    const party=G.cands[s].party;const r=rr[party];if(!r)return;
+    const cv=x=>x===s?'P':x;const ai=aiBy[party];
+    st.mq=[{type:'primaryResults',round,roundWin:cv(r.roundWin),field:r.field.map(cv),roundDel:Object.fromEntries(Object.entries(r.roundDel).map(([k,v])=>[cv(k),v])),
+      rows:r.rows.map(x=>({a:x.a,win:cv(x.win),sh:Object.fromEntries(Object.entries(x.sh).map(([k,v])=>[cv(k),v]))})),notes:(ctx[s]?ctx[s].notes:[]),
+      ai:aiTargetsText(ai).concat(ai.attacks.filter(x=>x.tgt===s).map(x=>`${G.cands[x.id].name}’s attack ad in ${ST[x.a].n}: ${sgn(x.d*100)} pts for you.`)),drops:r.drops.map(d=>({id:cv(d.id),to:cv(d.to)}))}];});
+  if(round<G.rounds){
+    G.round++;Object.keys(G.prim).forEach(party=>{loadPrim(party);G.active=G.primaryField.slice();pPolls();savePrim(party);});canonActive();
+    G.humans.forEach(s=>{const st=G.seats[s];if(st.sideline||st.out)return;activateSeat(s);const pre=G.mq||[];UI.mq=[];UI.modal=null;weekStart();G.mq=pre.concat([UI.modal,...UI.mq].filter(Boolean));deactivateSeat();});
+    finalizeLive();return G;
+  }
+  return beginConventionMP();
+}
+function beginConventionMP(){
+  G.phase='convention';G.nominees={};
+  Object.keys(G.prim).forEach(party=>{const ct=G.prim[party];const win=ct.primaryField.slice().sort((a,b)=>ct.delegates[b]-ct.delegates[a])[0];ct.winner=win;G.nominees[party]=win;tick(`${G.cands[win].name} clinches the ${partyName(party)} nomination`);});
+  G.humans.forEach(s=>{const st=G.seats[s];const c=G.cands[s];const pre=st.mq||[];
+    if(st.sideline){st.mq=pre.concat([{type:'note',title:'The conventions are underway',html:'<p>The major parties have their nominees. The general election starts next turn.</p>'}]);return;}
+    const win=G.nominees[c.party];
+    if(win===s){st.mq=pre.concat([{type:'note',title:'You won the nomination!',html:'<p>Your rivals are deciding whether to join your ticket, back you as an advisor, or run as independents. The general election starts next turn.</p>'}]);return;}
+    if(!isHumanId(win)){st.out=true;st.mq=pre.concat([{type:'note',title:'You lost the nomination',html:`<p>${esc(G.cands[win].name)} won the ${esc(partyName(c.party))} nomination. You’re out of the race, but you can keep watching.</p>`}]);return;}
+    st.mq=pre.concat([{type:'loserpath',nominee:G.cands[win].name}]);});
+  if(G.humans.every(s=>G.seats[s].out))G.phase='over';
+  return G;
+}
+const AGENDA_TEXT={pet:(a,n)=>`Get ${n} to move at least 25% your way on ${ISSUES[a.i].n.toLowerCase()}.`,narrow:(a,n)=>`Make sure the ticket wins, but by fewer than 40 electoral votes, so everyone knows they needed you.`,
+  shadow:()=>'Land 2 endorsements yourself (court them with your own actions), setting up your own run in four years.',saboteur:(a,n)=>`Keep ${n}’s credibility under 50 on election day.`};
+const AGENDA_CLUE={pet:a=>`Someone on your ticket keeps telling reporters you should rethink your stance on ${ISSUES[a.i].n.toLowerCase()}.`,narrow:()=>'A reporter says someone on your ticket wants a close race, “to keep everyone humble.”',
+  shadow:()=>'An endorser mentions your running mate called them first, and talked a lot about “2032.”',saboteur:()=>'Off-the-record quotes questioning your judgment seem to be coming from inside your campaign.'};
+function makeAgenda(s,nom){const c=G.cands[s],n=G.cands[nom];const k=pick(['pet','narrow','shadow','saboteur']);const a={k};
+  if(k==='pet'){let best=0,bd=-1;for(let i=0;i<9;i++){const d=Math.abs(c.pos[i]-n.pos[i]);if(d>bd){bd=d;best=i;}}a.i=best;a.dir=Math.sign(c.pos[best]-n.pos[best])||1;a.start=n.pos[best];}
+  a.text=AGENDA_TEXT[k](a,n.name);return a;}
+function agendaDone(st){const a=st.agenda;if(!a)return false;const n=G.cands[st.ticket];if(!n)return false;
+  if(a.k==='pet')return (n.pos[a.i]-a.start)*a.dir>=.5;
+  if(a.k==='saboteur')return n.cred<50;
+  if(a.k==='shadow')return (st.endorseCount||0)>=2;
+  if(a.k==='narrow'){if(!G.finalSum)return false;const ev=G.finalSum.ev;const mine=ev[st.ticket]||0;const best=Math.max(...Object.entries(ev).filter(([k])=>k!==st.ticket).map(([,v])=>v));return mine>=270&&mine-best<40;}
+  return false;}
+function makeIndependent(s,late){
+  const c=G.cands[s],st=G.seats[s];const used=Object.values(G.cands).filter(x=>x.cp).map(x=>x.cp.color);
+  const base=BK.slice().sort((a,b)=>appeal(c.pos,b)-appeal(c.pos,a)).slice(0,2);
+  const cp={name:c.name.split(' ').slice(-1)[0]+' Independents',color:CP_COLORS.find(x=>!used.includes(x))||CP_COLORS[0],values:c.pos.slice(),base};
+  c.party='C';c.cp=cp;c.ballot=defaultBallot(late);c.mom=0;refreshStatic(c);st.customParty=cp;st.role=null;st.ticket=null;st.agenda=null;st.out=false;
+  st.ballotDeadline=(G.week||1)+2;if(!G.active.includes(s))G.active.push(s);
+  tick(`${c.name} launches an independent campaign`);
+}
+function resolveConventionMP(){
+  const vpTaken={};
+  G.humans.forEach(s=>{const st=G.seats[s];const c=G.cands[s];if(st.out||st.sideline)return;const win=G.nominees[c.party];if(win===s||!isHumanId(win))return;
+    let ch=st.loserChoice||'advisor';if(ch==='vp'&&vpTaken[win])ch='advisor';
+    if(ch==='indep'){st.indepPending=true;return;}
+    st.role=ch;st.ticket=win;if(ch==='vp')vpTaken[win]=s;st.agenda=makeAgenda(s,win);
+    tick(ch==='vp'?`${c.name} joins ${G.cands[win].name}’s ticket as running mate`:`${c.name} signs on as an advisor to ${G.cands[win].name}`);});
+  startGeneralMP(vpTaken);
+  return G;
+}
+function startGeneralMP(vpTaken){
+  G.phase='general';G.week=1;G.weeks=G.pace==='quick'?8:12;G.debateWeeks=G.pace==='quick'?[5]:[4,7,10];G.vpDebateWeek=G.pace==='quick'?3:6;G.octWeek=G.weeks-1;
+  const act=[];
+  ['D','R'].forEach(party=>{let nom=G.nominees&&G.nominees[party];if(!nom)nom=pick(ROSTER.filter(r=>r.party===party)).id;act.push(nom);
+    if(!isHumanId(nom)){const o=G.cands[nom];o.mom=3;const keep=Math.floor(rnd()*9);o.pos=DEF[party].map((v,i)=>i===keep?o.pos[i]:v);o.vp={name:pick(VP_NAMES),home:pick(BATTLEGROUND)};}});
+  G.humans.forEach(s=>{const c=G.cands[s];const st=G.seats[s];if(c.party==='C'&&!st.out&&!st.role&&!act.includes(s))act.push(s);});
+  G.active=act;G.effort={};
+  G.humans.forEach(s=>{const st=G.seats[s];if(st.indepPending){delete st.indepPending;makeIndependent(s,true);}});
+  G.humans.forEach(s=>{const st=G.seats[s];const c=G.cands[s];if(c.party!=='C'||!G.active.includes(s))return;
+    if(!c.ballot)c.ballot=defaultBallot(false);
+    if(st.sideline){st.sideline=false;st.cash+=6;ST_LIST.filter(x=>!c.ballot[x.a]&&Math.abs(x.lean)<=10).slice(0,5).forEach(x=>c.ballot[x.a]=true);}
+    if(!st.ballotDeadline||st.ballotDeadline<G.week)st.ballotDeadline=G.pace==='quick'?3:4;});
+  G.humanVP=Object.keys(vpTaken).length>0;
+  computePolls();G.prevPolls=null;G.pollHistory=[{w:0,sh:{...G.pollSum.pop},ev:{...G.pollSum.ev}}];
+  G.humans.forEach(s=>{const st=G.seats[s];
+    if(st.out){st.mq=[];return;}
+    if(st.role){const nom=G.cands[st.ticket];st.mq=[{type:'note',title:st.role==='vp'?`You’re ${nom.name}’s running mate`:`You’re now advising ${nom.name}`,html:`<p>You get 2 actions every week to spend on the ticket.${st.role==='vp'?' You’ll also face the other running mates in the vice presidential debate.':''}</p><p><b>Your secret agenda:</b> ${esc(st.agenda.text)}</p><p class="muted">Complete it for a legacy bonus and a personal win, even if the ticket loses. ${esc(nom.name)} may notice clues, and can drop you from the ticket.</p>`}];return;}
+    activateSeat(s);G.prevBloc=blocSupport();
+    if(vpTaken[s]){const h=vpTaken[s];P().vp={name:G.cands[h].name,home:G.cands[h].home,type:'swing',human:h};G.mq=[platformFight()];}
+    else G.mq=[{type:'vp',opts:vpOptions()}];
+    deactivateSeat();});
+}
+function kickHelper(nom,h){const st=G.seats[h];if(!st||st.ticket!==nom)return;const n=G.cands[nom];n.cred=clamp(n.cred-6,0,100);if(n.vp&&n.vp.human===h)n.vp=null;
+  tick(`${n.name} drops ${G.cands[h].name} from the ticket`);makeIndependent(h,true);
+  st.mq=[{type:'note',title:'You’ve been dropped from the ticket',html:`<p>${esc(n.name)} cut you loose. You’re now running as an independent, on fewer state ballots, with a short window to petition for more.</p>`}];}
+function resolveGeneralMP(actors,logs){
+  G.humans.forEach(s=>{const st=G.seats[s];(st.kicks||[]).forEach(h=>kickHelper(s,h));st.kicks=[];});
+  const players=G.humans.filter(s=>G.active.includes(s));
+  const helpers=G.humans.filter(h=>G.seats[h].role&&!G.seats[h].out);
+  const ctx={};
+  players.forEach(s=>{activateSeat(s);
+    helpers.filter(h=>G.seats[h].ticket===s).forEach(h=>{((logs[h]||{}).plan||[]).slice(0,2).forEach(it=>G.plan.push({...it,by:h}));});
+    ctx[s]={before:snapshot(),notes:(G.notes||[]).concat(executePlan())};deactivateSeat();});
   const ai=aiTurn();decayAll();G.turn=(G.turn||0)+1;
   G.mood=(G.mood||0)*.85+gauss()*.6;ST_LIST.forEach(st=>{G.drift[st.a]=(G.drift[st.a]||0)*.9+gauss()*.7;});
-  G.humans.forEach(s=>{activateSeat(s);seatWeekly(ctx[s].notes);deactivateSeat();});
+  players.forEach(s=>{activateSeat(s);seatWeekly(ctx[s].notes);deactivateSeat();});
+  helpers.forEach(h=>{const st=G.seats[h];if(ctx[st.ticket]&&st.agenda&&rnd()<.35)ctx[st.ticket].notes.push('Clue: '+AGENDA_CLUE[st.agenda.k](st.agenda));});
   G.prevPolls=G.polls;computePolls();G.pollHistory.push({w:G.week,sh:{...G.pollSum.pop},ev:{...G.pollSum.ev}});
   const lead=Object.entries(G.pollSum.pop).sort((a,b)=>b[1]-a[1]);
   tick(`New national poll: ${G.cands[lead[0][0]].name} ${pct(lead[0][1])}%, ${G.cands[lead[1][0]].name} ${pct(lead[1][1])}%`);
-  G.humans.forEach(s=>{activateSeat(s);const after=snapshot();
+  players.forEach(s=>{activateSeat(s);const after=snapshot();
     if(P().party==='C'&&G.week===G.ballotDeadline)ctx[s].notes.push(`The ballot deadline has passed. You’re on the ballot in ${Object.keys(P().ballot||{}).length} states.`);
     const r=buildRecap(ctx[s].before,after,ctx[s].notes,{log:ai.log,attacks:ai.attacks.filter(x=>x.tgt===s)});
     r.news=(G.news||[]).slice();r.mood=G.mood;r.week=G.week;G.recap=r;G.prevBloc=after.bloc;
     if(G.week>=G.weeks)G.trailedFinal=lead[0][0]!==s;
     deactivateSeat();});
+  helpers.forEach(h=>{const t=G.seats[G.seats[h].ticket];if(t)G.seats[h].recap=t.recap;});
   G.news=[];G.week++;
-  if(G.week>G.weeks){const f=project(1.5,1.5);G.final=f;G.finalSum=summarize(f);G.mpFinal=true;G.phase='night';}
-  else G.humans.forEach(s=>{activateSeat(s);UI.mq=[];UI.modal=null;weekStart();G.mq=[UI.modal,...UI.mq].filter(Boolean);deactivateSeat();});
+  if(G.week>G.weeks){const f=project(1.5,1.5);G.final=f;G.finalSum=summarize(f);G.mpFinal=true;G.phase='night';
+    helpers.forEach(h=>{G.seats[h].agendaDone=agendaDone(G.seats[h]);});return G;}
+  players.forEach(s=>{activateSeat(s);UI.mq=[];UI.modal=null;weekStart();G.mq=[UI.modal,...UI.mq].filter(Boolean);deactivateSeat();});
+  helpers.forEach(h=>{G.seats[h].mq=[];});
+  finalizeLive();
+  return G;
+}
+/* ---- Live debates (host-scored; see src/components/LiveDebate.jsx) ---- */
+function ldRng(seed){let s=seed|0;return()=>{s=(s+0x6D2B79F5)|0;let t=Math.imul(s^(s>>>15),s|1);t^=t+Math.imul(t^(t>>>7),t|61);return((t^(t>>>14))>>>0)/4294967296;};}
+function ldPart(id,stageId){const c=G.cands[id];const human=isHumanId(id);const st=human?G.seats[id]:null;
+  return {id,uid:st?st.uid:null,name:c.name,party:c.party,deb:c.stats.deb,comp:c.stats.comp,cha:c.stats.cha,prep:st?(st.prep||0):1,perk:c.perk||null,flaw:c.flaw||null,ai:!human,answers:[],qtext:[]};}
+function debatePrepare(state){return headless(()=>{
+  G=JSON.parse(JSON.stringify(state));ROSTER=G.roster||[];const L=G.liveDebate;const stages=[];
+  if(L.kind==='primary'){Object.keys(G.prim).forEach(p=>{stages.push({key:p,title:`${partyName(p)} primary debate`,parts:G.prim[p].primaryField.map(id=>ldPart(id))});});}
+  else if(L.kind==='vp'){const parts=G.active.map(id=>{const h=G.humans.find(x=>G.seats[x].role==='vp'&&G.seats[x].ticket===id);
+      if(h){const pt=ldPart(h);pt.ticket=id;pt.platform=id;return pt;}const c=G.cands[id];return {id:'vp_'+id,uid:null,ticket:id,name:(c.vp&&c.vp.name)||'Running mate',party:c.party,deb:3,comp:3,cha:3,prep:1,ai:true,answers:[],qtext:[]};});
+    stages.push({key:'vp',title:'Vice presidential debate',parts});}
+  else{const parts=G.active.filter(id=>!(G.cands[id].party==='C'&&G.pollSum&&G.pollSum.pop[id]<.15)).map(id=>ldPart(id));stages.push({key:'main',title:'Presidential debate',parts});}
+  const qs=shuffle(DQ.filter(q=>!q.req&&!q.a||(!q.req&&q.a))).slice(0,5).map(q=>({type:q.type,t:q.t,issue:q.issue,a:q.a}));
+  stages.forEach(stg=>stg.parts.forEach(pt=>{if(pt.ai)return;const seat=pt.platform||pt.id;
+    activateSeat(seat);pt.answers=qs.map(q=>buildAnswers(q).map(x=>({style:x.style,text:fill(x.text)})));pt.qtext=qs.map(q=>fill(q.t));deactivateSeat();}));
+  stages.forEach(stg=>stg.parts.forEach(pt=>{if(pt.ai)pt.qtext=qs.map(q=>q.t.replace(/\{opp\}/g,'your opponent'));}));
+  return {kind:L.kind,week:L.week,seed:seedMix(G.turn||0,(G.week||0)*31+(G.round||0)),stages,qs:qs.map(q=>({type:q.type}))};
+});}
+function ldP(pt,style,qtype){let p=.47+(pt.deb-3)*.07+pt.prep*.07+((FIT[qtype]||FIT.policy)[style]||0)+(pt.comp-3)*.02;if(pt.perk==='shark')p+=.07;if(pt.flaw==='lightweight'&&style==='policy')p-=.1;return clamp(p,.1,.92);}
+function debateScoreAnswers(spec,round,picks){const r=ldRng(spec.seed+round*101);const out={};const qt=spec.qs[round].type;
+  spec.stages.forEach(stg=>stg.parts.forEach(pt=>{let ans,auto=false;
+    if(pt.ai){const style=['policy','message','attack','joke'][Math.floor(r()*4)];ans={style,text:AI_DEBATE_LINES[style]};}
+    else{const list=pt.answers[round]||[];let idx=picks[pt.id];if(idx===undefined||idx===null||!list[idx]){idx=Math.max(0,list.findIndex(a=>a.style==='message'));auto=true;}ans=list[idx]||{style:'message',text:AI_DEBATE_LINES.message};}
+    const ok=r()<ldP(pt,ans.style,qt);let pts=ok?(ans.style==='joke'?1.5:1):(ans.style==='joke'?-1.5:-1);if(pt.flaw==='overconfident')pts*=1.5;
+    out[pt.id]={text:ans.text,style:ans.style,ok,pts,auto};}));
+  return out;}
+function debateScoreRebuts(spec,round,picks,zused){const r=ldRng(spec.seed+round*101+50);const out={};const hit={};
+  spec.stages.forEach(stg=>stg.parts.forEach(pt=>{const others=stg.parts.filter(o=>o.id!==pt.id);if(!others.length){out[pt.id]={type:'slide',ok:true,pts:0};return;}
+    let pk=picks[pt.id];if(pt.ai)pk={target:others[Math.floor(r()*others.length)].id,type:r()<.6?'counter':'slide'};
+    if(!pk||!pk.type)pk={type:'slide'};if(pk.type==='zinger'&&zused[pt.id])pk={...pk,type:'counter'};
+    const tgt=others.find(o=>o.id===pk.target)||others[0];let ok=true,pts=-.25,line='';
+    if(pk.type==='counter'){ok=r()<ldP(pt,'attack','attack')-.05;pts=ok?1:-1;line=pick(REBUTTALS);if(ok)hit[tgt.id]=(hit[tgt.id]||0)-.5;}
+    else if(pk.type==='zinger'){ok=r()<clamp(.4+pt.prep*.08+(pt.cha-3)*.05,.15,.85);pts=ok?2:-1.5;line=pick(ZINGERS).replace(/\{opp\}/g,tgt.name);if(ok)hit[tgt.id]=(hit[tgt.id]||0)-1;}
+    if(pt.flaw==='overconfident')pts*=1.5;
+    out[pt.id]={type:pk.type,target:pk.type==='slide'?null:tgt.id,targetName:pk.type==='slide'?null:tgt.name,ok,pts,line};}));
+  for(const id in hit)if(out[id])out[id].hit=hit[id];
+  return out;}
+function debateApply(state,spec,totals){return headless(()=>{
+  G=JSON.parse(JSON.stringify(state));ROSTER=G.roster||[];const summary=[];
+  spec.stages.forEach(stg=>{const ranked=stg.parts.slice().sort((a,b)=>(totals[b.id]||0)-(totals[a.id]||0));const n=ranked.length;
+    ranked.forEach((pt,i)=>{const frac=n>1?i/(n-1):0;const dm=4-7*frac;const cid=spec.kind==='vp'?pt.ticket:pt.id;const c=G.cands[cid];if(!c)return;const m=spec.kind==='vp'?.5:1;
+      c.mom=clamp(c.mom+dm*m,-10,10);if(i===0&&spec.kind!=='vp')c.cred=clamp(c.cred+2,0,100);
+      if(isHumanId(cid)&&G.seats[cid]&&spec.kind!=='vp'){const sd=G.seats[cid];sd.prep=0;if(spec.kind==='pres'){sd.debates=sd.debates||{won:0,lost:0,draw:0,total:0};sd.debates.total++;if(i===0)sd.debates.won++;else if(i===n-1)sd.debates.lost++;else sd.debates.draw++;}}});
+    tick(`Instant poll: ${ranked[0].name} wins the ${stg.title.toLowerCase()}`);
+    summary.push({title:stg.title,ranked:ranked.map(p=>({id:p.id,name:p.name,score:Math.round((totals[p.id]||0)*10)/10}))});});
+  G.liveDebate=null;G.lastDebate={summary};
   return G;
 });}
 /** Client: show the shared state from this player's seat. */
 function mpLoad(state,seat){
-  G=JSON.parse(JSON.stringify(state));ROSTER=G.roster||[];activateSeat(seat);MP.seat=seat;MP.log=[];
-  UI.waiting=false;UI.pending=null;UI.flash='';UI.guide=null;UI.tut=null;UI.tutOffer=false;
+  G=JSON.parse(JSON.stringify(state));ROSTER=G.roster||[];const st=G.seats[seat];
+  MP.seat=seat;MP.log=[];MP.helper=null;MP.side=null;MP.blockEnd=!!G.liveDebate;
+  UI.waiting=false;UI.pending=null;UI.flash='';UI.guide=null;UI.tut=null;UI.tutOffer=false;UI.modal=null;
+  if(G.phase==='over'){activateSeat(seat);const ct=G.prim&&G.prim[P().party];finish({lostNomination:true,nominee:ct&&ct.winner?ct.winner.replace(seat,'P'):Object.keys(G.cands)[0]});return;}
+  const sideMode=st.out||(st.sideline&&G.phase==='primary')||G.phase==='convention';
+  if(st.role&&!st.out&&G.phase!=='convention'){activateSeat(st.ticket);MP.helper={role:st.role,agenda:st.agenda,seat,nominee:G.cands.P.name,done:st.agendaDone};G.apWeek=2;G.plan=[];
+    if(G.phase==='night'){startNight();return;}
+    UI.screen='game';UI.mq=(st.mq||[]).slice();if(st.recap&&G.week>1)UI.mq.unshift({type:'recap',recap:st.recap,title:`Week ${st.recap.week} recap`});UI.modal=UI.mq.shift()||null;render();return;}
+  if(sideMode){MP.side={out:!!st.out,sideline:!!st.sideline,phase:G.phase};UI.screen='mpside';UI.mq=(st.mq||[]).slice();UI.modal=UI.mq.shift()||null;render();
+    if(st.out&&!UI.modal&&MP.onEndWeek){UI.waiting=true;MP.onEndWeek({log:[],plan:[]});}return;}
+  activateSeat(seat);
   if(G.phase==='night'){startNight();return;}
   UI.screen='game';UI.mq=(G.mq||[]).slice();
-  if(G.recap&&G.week>1)UI.mq.unshift({type:'recap',recap:G.recap,title:`Week ${G.recap.week} recap`});
+  if(G.recap&&G.week>1&&G.phase==='general')UI.mq.unshift({type:'recap',recap:G.recap,title:`Week ${G.recap.week} recap`});
+  if(G.lastDebate)UI.mq.unshift({type:'note',title:'Debate results',html:G.lastDebate.summary.map(s=>`<h3 style="font-size:20px">${esc(s.title)}</h3><ol>${s.ranked.map(r=>`<li>${esc(r.id===seat?'You':r.name)} <span class="num">${r.score}</span></li>`).join('')}</ol>`).join('')});
   UI.modal=UI.mq.shift()||null;render();
 }
 function mpIntercept(act,v,ds){
-  if(act==='endweek'){if(UI.modal||UI.waiting)return true;UI.waiting=true;const payload=JSON.parse(JSON.stringify({log:MP.log,plan:G.plan||[]}));MP.log=[];render();if(MP.onEndWeek)MP.onEndWeek(payload);return true;}
+  if(act==='endweek'){if(UI.modal||UI.waiting||MP.blockEnd)return true;UI.waiting=true;const payload=JSON.parse(JSON.stringify({log:MP.log,plan:MP.side?[]:(G.plan||[])}));MP.log=[];render();if(MP.onEndWeek)MP.onEndWeek(payload);return true;}
   if(['quit','new','title','loadslot','continue','tutyes'].includes(act)){if(UI.screen==='results'&&MP.onExit)MP.onExit();return true;}
   if(act==='party'&&v!==MP.party)return true;
   if(act==='next'&&UI.screen==='setup'&&UI.S.step===5){const S=UI.S;if(Object.keys(S.minor).length<3){S.err='Pick at least 3 minor issues to campaign on.';render();return true;}
     UI.screen='mpwait';render();if(MP.onSetupDone)MP.onSetupDone(JSON.parse(JSON.stringify(S)));return true;}
-  if(MP_REC.has(act)&&UI.screen==='game'&&!(UI.modal&&UI.modal.type==='recap')){const e={act};if(v!==undefined)e.v=v;if(ds.k!==undefined)e.k=ds.k;MP.log.push(e);}
+  if(MP_REC.has(act)&&(UI.screen==='game'||UI.screen==='mpside')&&!MP.helper&&!(UI.modal&&UI.modal.type==='recap')){const e={act};if(v!==undefined)e.v=v;if(ds.k!==undefined)e.k=ds.k;MP.log.push(e);}
   return false;
 }
+function mpSideHTML(){const sd=MP.side||{};let body='';
+  if(G.prim){body=Object.keys(G.prim).map(p=>{const ct=G.prim[p];const ids=ct.primaryField.concat((ct.dropped||[]).map(d=>d.id));
+    return `<div class="panel"><h3>${esc(partyName(p))} primary</h3>${ids.sort((a,b)=>(ct.delegates[b]||0)-(ct.delegates[a]||0)).map(id=>`<div class="poll-row"><span class="name">${esc(G.cands[id].name)}${ct.winner===id?' (nominee)':''}</span><span class="num" style="font-size:18px">${ct.delegates[id]||0}</span></div>`).join('')}<small class="muted">Delegates</small></div>`;}).join('');}
+  if(G.pollSum&&G.phase==='general')body+=`<div class="panel"><h3>National polling</h3>${Object.entries(G.pollSum.pop).sort((a,b)=>b[1]-a[1]).map(([id,v])=>`<div class="poll-row"><span class="name">${esc(G.cands[id].name)}</span><span class="num">${pct(v)}%</span></div>`).join('')}</div>`;
+  const title=sd.out?'You’re out of the race':sd.sideline&&sd.phase==='primary'?'Your party has no primary':'The conventions';
+  const sub=sd.out?'You can keep watching. Your turns pass automatically.':sd.sideline&&sd.phase==='primary'?'While the major parties fight it out, your volunteers gather ballot signatures. Click Continue each turn.':'Choices are being made about who runs with whom. Click Continue when you’re ready.';
+  return `<div class="wrap"><div class="brand">Politicaster</div><h1 style="font-size:48px">${title}</h1><p class="muted">${sub}</p><div class="lobby-grid">${body}</div>
+    ${sd.out?'':'<button class="btn chy" data-act="endweek">Continue</button>'}</div>${tickerHTML()}`;}
+function replayInput(ai,val){if(!UI.modal)return;if(ai==='speechi'){UI.modal.i=+val;UI.modal.to=P().pos[+val];}if(ai==='speechto')UI.modal.to=+val/50;}
 function mpWaitHTML(){return `<div class="title-screen"><div class="title-card"><div class="brand">Politicaster</div><h1 style="font-size:56px">Campaign announced</h1>
   <p class="muted">Waiting for the other candidates to finish building their campaigns${MP.waitingNames.length?': '+MP.waitingNames.map(esc).join(', '):''}.</p></div></div>`;}
 function mpWaitingOverlay(){return `<div class="overlay center" role="status"><div class="lt"><div class="lt-head"><div class="tag">Week submitted</div><h2>Waiting for the other candidates</h2></div><div class="lt-body">
@@ -2524,6 +2786,7 @@ export const Legacy={
   computePolls,project,summarize,decideWinner,finish,isPrimary,P:()=>G.cands.P,
   mp:{
     createMulti,resolveMulti,load:mpLoad,act:handleAct,lastReplay:()=>MP.lastReplay,
+    debatePrepare,debateScoreAnswers,debateScoreRebuts,debateApply,setBlockEnd(v){MP.blockEnd=!!v;},
     configure(o){Object.assign(MP,o);},
     startSetup(party,room){MP.party=party;if(room)MP.room=room;const S=newSetup();S.party=party;S.pos=party==='C'?S.cp.values.slice():DEF[party].slice();UI.S=S;UI.screen='setup';render();},
     setWaiting(names){MP.waitingNames=names||[];if(app&&(UI.screen==='mpwait'||UI.waiting))render();},

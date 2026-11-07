@@ -25,6 +25,23 @@
           "$msg": {
             ".write": "auth != null && !data.exists() && newData.child('uid').val() === auth.uid && newData.child('text').isString() && newData.child('text').val().length <= 300"
           }
+        },
+        "debate": {
+          ".write": "auth != null && root.child('rooms/' + $code + '/meta/hostUid').val() === auth.uid",
+          "answers": {
+            "$round": {
+              "$uid": {
+                ".write": "auth != null && auth.uid === $uid && root.child('rooms/' + $code + '/players/' + auth.uid).exists()"
+              }
+            }
+          },
+          "rebuts": {
+            "$round": {
+              "$uid": {
+                ".write": "auth != null && auth.uid === $uid && root.child('rooms/' + $code + '/players/' + auth.uid).exists()"
+              }
+            }
+          }
         }
       }
     }

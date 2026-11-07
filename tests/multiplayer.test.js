@@ -40,6 +40,21 @@ function clientTurn(state, seat) {
   return { payload, local };
 }
 
+
+function settleDebate(state) {
+  if (!state.liveDebate) return state;
+  const spec = Legacy.mp.debatePrepare(state);
+  const totals = {}, zused = {};
+  for (let r = 0; r < 5; r++) {
+    const picks = {}, rebuts = {};
+    spec.stages.forEach((st) => st.parts.forEach((p) => { if (!p.ai) { picks[p.id] = 0; const o = st.parts.find((x) => x.id !== p.id); rebuts[p.id] = { target: o && o.id, type: 'counter' }; } }));
+    const a = Legacy.mp.debateScoreAnswers(spec, r, picks), b = Legacy.mp.debateScoreRebuts(spec, r, rebuts, zused);
+    for (const id in a) totals[id] = (totals[id] || 0) + a[id].pts;
+    for (const id in b) totals[id] = (totals[id] || 0) + b[id].pts + (b[id].hit || 0);
+  }
+  return Legacy.mp.debateApply(state, spec, totals);
+}
+
 function playVersus(seed) {
   localStorage.removeItem('politicaster.seen');
   const entries = [
@@ -50,6 +65,7 @@ function playVersus(seed) {
   let state = Legacy.mp.createMulti(entries, { diff: 'normal', pace: 'quick' }, seed);
   const mismatches = [];
   for (let w = 0; w < 20 && state.phase !== 'night'; w++) {
+    state = settleDebate(state);
     const logs = {}, locals = {};
     for (const seat of state.humans) { const r = clientTurn(state, seat); logs[seat] = r.payload; locals[seat] = r.local; }
     const next = Legacy.mp.resolveMulti(state, logs);
@@ -89,6 +105,8 @@ describe('versus multiplayer', () => {
     let state = Legacy.mp.createMulti(entries, { diff: 'normal', pace: 'standard' }, 9);
     let checked = 0;
     for (let w = 0; w < 14 && state.phase !== 'night'; w++) {
+      state = settleDebate(state);
+      if (state.phase === 'night') break;
       const logs = {}, locals = {};
       for (const seat of state.humans) { const r = clientTurn(state, seat); logs[seat] = r.payload; locals[seat] = r.local; }
       state = Legacy.mp.resolveMulti(state, logs);

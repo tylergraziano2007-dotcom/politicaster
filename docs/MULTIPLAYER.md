@@ -1,21 +1,40 @@
-# How versus multiplayer works
+# How multiplayer works
 
-1. In a room, each player picks a party (one each for Democratic and Republican; any number
-   can start their own party) and clicks I'm ready. The host clicks Start game.
-2. Everyone builds a candidate with the normal setup screens. When all are in, the host's
-   browser creates the game and publishes week 1. AI fills any major party nobody picked.
-3. Each week every player handles their own breaking news, debates, and scandals, plans
-   their actions, and clicks End week. The host's browser resolves the week when everyone
-   is in, then everyone sees their own recap.
-4. Election night plays out for everyone with the same results.
+## Lobby
+- Each player picks a party. With **primaries on**, several players can share a party and face
+  off in its primary (plus AI rivals). Own-party players skip the primary and gather ballot
+  signatures, starting the general on more state ballots with extra cash.
+- With **primaries off**, it's one player per major party and everyone starts as a nominee.
+- Everyone readies up; the host clicks Start. Everyone builds a candidate.
 
-How it stays fair and in sync:
-- Each player's random outcomes (debate answers, events) come from their own seeded stream,
-  and the host replays every player's clicks against the exact snapshot that player saw,
-  so the host gets exactly the results the player saw. `tests/multiplayer.test.js` checks
-  this every week for three players.
-- Plans are submitted as-is and executed by the host in seat order.
-- If the host disconnects, the earliest-joined connected player becomes host and continues
-  from the last published week.
-- If a player disconnects, the week resolves without them (their candidate takes no actions).
-  The host also gets a "Resolve week now" button once they've submitted, for anyone who walks away.
+## Primaries (3 rounds)
+Iowa & New Hampshire, Nevada & South Carolina, Super Tuesday. Each party's primary runs at the
+same time, with its own results and dropouts. Humans are never auto-dropped.
+
+## Convention
+- If a human wins, each human who lost that primary chooses: **run as an independent**,
+  **become the running mate**, or **become an advisor**. If two pick running mate, the first
+  in seat order gets it and the other advises.
+- If an AI wins a party's primary, the humans who lost it are out and can keep watching.
+  If every human is out, the game ends.
+
+## Running mates and advisors
+- 2 actions a week for the ticket, paid from the ticket's cash.
+- A **secret agenda** (pet issue, narrow win, shadow campaign, or quiet saboteur). Completing
+  it earns 150 legacy points and counts as a personal win even if the ticket loses.
+- The nominee sees occasional clues, and can **drop** them (costs 6 credibility); a dropped
+  player continues as an independent with a late start.
+- A human running mate plays the **vice presidential debate** live.
+
+## Live debates
+Everyone in the race is on one stage. For each of 5 questions: everyone answers at once
+(30 seconds), answers are revealed together, then everyone picks a rival to counter, zing
+(once per debate), or let it slide. The host scores each step; the final ranking sets
+momentum (first gains the most, last loses some). Anyone offline gets an automatic answer.
+
+## Staying in sync
+- Each player's random outcomes come from their own seeded stream, and the host replays every
+  player's clicks against the exact snapshot they saw. `tests/multiplayer.test.js` verifies the
+  host gets exactly what each player saw, every week.
+- If the host disconnects, the earliest-joined connected player takes over from the last week.
+- The host gets a "Resolve week now" button for anyone who walks away mid-week.

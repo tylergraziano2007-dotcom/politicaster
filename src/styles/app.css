@@ -15,3 +15,13 @@
 .host-ctrl{position:fixed;right:20px;bottom:calc(60px + env(safe-area-inset-bottom,0px));z-index:30;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--chyron);border-radius:8px;padding:10px 12px;display:flex;flex-direction:column;gap:6px;max-width:280px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
 .host-ctrl span{font-weight:700;font-size:13px}.host-ctrl small{color:var(--muted);font-size:12px}
 .err-box{border-left-color:var(--bad);color:var(--bad);font-weight:600;bottom:calc(150px + env(safe-area-inset-bottom,0px))}
+.live-debate{z-index:40}
+.ld-grid{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:16px}
+@media (max-width:760px){.ld-grid{grid-template-columns:1fr}}
+.ld-q{font-size:18px;font-weight:600;margin:0 0 8px}
+.ld-timer{font-weight:600}.ld-timer .num{font-size:26px}
+.ld-answers{display:grid;gap:6px}
+.ld-ans{display:grid;grid-template-columns:140px 1fr auto;gap:10px;align-items:center;background:var(--surface2);border-radius:6px;padding:8px 10px;border-left:4px solid var(--line);font-size:14px}
+.ld-ans.ok{border-left-color:var(--good)}.ld-ans.bad{border-left-color:var(--bad)}
+.ld-rank li{font-size:18px;padding:4px 0}
+.ld-score h3{font-size:20px}
